@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Grid Component · </title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;style&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Grid Component · "/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/"/><meta property="og:description" content="&lt;style&gt;"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://your-docusaurus-test-site.com/blog/atom.xml" title=" Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://your-docusaurus-test-site.com/blog/feed.xml" title=" Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/cacao-logo.png" alt=""/><h2 class="headerTitleWithLogo"></h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/main" target="_self">Docs</a></li><li class=""><a href="/help" target="_self">Help</a></li><li class=""><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Cacao</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/main">Intro to Cacao</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/grid">Grid Component</a></li><li class="navListItem"><a class="navItem" href="/docs/button">Button Component</a></li><li class="navListItem"><a class="navItem" href="/docs/nav">Navigation Component</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Grid Component</h1></header><article><div><span><style>
+.example-Element {
+    background-color: #329A5C;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 10px 20px;
+}
+.example-Element-large {
+    background-color: #54827A;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 20px 20px;
+}
+.tab-pane {
+    height: 250px;
+    overflow: scroll;
+    margin: 10px 0 50px 0;
+}
+</style>
+<h1><a class="anchor" aria-hidden="true" id="grid"></a><a href="#grid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Grid</h1>
+<p>A CSS grid component. The grid makes use of <code>flexbox</code> to provide features that
+float-based layouts cannot. Utilizes an inline-block fallback for browsers that
+lack <code>flexbox</code> or <code>flex-wrap</code> support.</p>
+<p>Fallbacks are applied by giving the <code>&lt;html&gt;</code> tag a class of <code>no-flexbox</code>
+or <code>no-flexwrap</code>.</p>
+<p>Basic visual tests are in <a href="http://aptuitiv.github.io/cacao/test/modules/grid.html"><code>test/modules/grid.html</code></a>
+and fallback layout tests are found in <a href="http://aptuitiv.github.io/cacao/test/modules/grid-noflex.html"><code>test/modules/grid-noflex.html</code></a>.</p>
+<p><strong>Note</strong>: This component relies on particular dimensions being applied to cells in
+the grid via other classes. For example,
+<a href="https://github.com/aptuitiv/cacao/tree/master/lib/utils/size">size utilities</a>.</p>
+<h2><a class="anchor" aria-hidden="true" id="features"></a><a href="#features" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Features</h2>
+<ul>
+<li>Fluid layout.</li>
+<li>Intelligent cell wrapping.</li>
+<li>Evenly fit cell spacing</li>
+<li>Equal height columns</li>
+<li>Horizontal centering of cells.</li>
+<li>Custom vertical alignment of cells (top, bottom, or middle).</li>
+<li>Cell width is controlled independently of grid gutter.</li>
+<li>Infinite nesting.</li>
+<li>Inline-block fallbacks for browsers without flexbox support.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="available-classes"></a><a href="#available-classes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Available classes</h2>
+<ul>
+<li><code>Grid</code>: core component</li>
+<li><code>Grid--alignCenter</code>: center-align all child <code>Grid-cell</code></li>
+<li><code>Grid--alignRight</code>: right-align all child <code>Grid-cell</code></li>
+<li><code>Grid--alignMiddle</code>: middle-align all child <code>Grid-cell</code></li>
+<li><code>Grid--alignBottom</code>: bottom-align all child <code>Grid-cell</code></li>
+<li><code>Grid--fit</code>: evenly distribute space amongst all child <code>Grid-cell</code></li>
+<li><code>Grid--equalHeight</code>: all child <code>Grid-cell</code> match height of the tallest</li>
+<li><code>Grid--withGutter</code>: adds a gutter between cells</li>
+<li><code>Grid--withGutterSm</code>: adds a smaller gutter between cells</li>
+<li><code>Grid--withGutterLg</code>: adds a larger gutter between cells</li>
+<li><code>Grid-cell</code>: a child cell of <code>Grid</code> that wraps grid content</li>
+<li><code>Grid-cell--center</code>: center an individual <code>Grid-cell</code></li>
+</ul>
+<p><strong>Note</strong>: <code>Grid--fit</code> and <code>Grid--equalHeight</code> will not work in browsers
+without flexbox support.</p>
+<h3><a class="anchor" aria-hidden="true" id="examples"></a><a href="#examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h3>
+<h4><a class="anchor" aria-hidden="true" id="grid-cells"></a><a href="#grid-cells" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Grid Cells</h4>
+<p>removes inter-cell whitespace by default<div class="tabs"><div class="nav-tabs"><div id="tab-group-1-tab-2" class="nav-link active" data-group="group_1" data-tab="tab-group-1-content-2">HTML</div><div id="tab-group-1-tab-3" class="nav-link" data-group="group_1" data-tab="tab-group-1-content-3">CSS</div></div><div class="tab-content"><div id="tab-group-1-content-2" class="tab-pane active" data-group="group_1" tabindex="-1"><div><span><pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid&quot;</span>&gt;</span><br />      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell u-size1of4&quot;</span>&gt;</span><br />        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;example-Element&quot;</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell u-size1of4&quot;</span>&gt;</span><br />        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;example-Element&quot;</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell u-size1of4&quot;</span>&gt;</span><br />        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;example-Element&quot;</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;Grid-cell u-size1of4&quot;</span>&gt;</span><br />        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;example-Element&quot;</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br /><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br /></code></pre>
+</span></div></div><div id="tab-group-1-content-3" class="tab-pane" data-group="group_1" tabindex="-1"><div><span><pre><code class="hljs css language-css"><span class="hljs-selector-class">.example-Element</span> {<br />    <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#54827A</span>;<br />    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;<br />    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">5px</span>;<br />    <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span> <span class="hljs-number">20px</span>;<br />}<br /></code></pre>
+</span></div></div></div></div></p>
+<div class="Grid">
+      <div class="Grid-cell u-size1of4">
+        <div class="example-Element">1</div>
+      </div>
+      <div class="Grid-cell u-size1of4">
+        <div class="example-Element">2</div>
+      </div>
+      <div class="Grid-cell u-size1of4">
+        <div class="example-Element">3</div>
+      </div>
+      <div class="Grid-cell u-size1of4">
+        <div class="example-Element">4</div>
+      </div>
+</div>
+<br>
+<br>
+<br>
+<p>arranges cells of different heights into clear rows</p>
+<div class="tabs"><div class="nav-tabs"><div id="tab-group-4-tab-5" class="nav-link active" data-group="group_4" data-tab="tab-group-4-content-5">HTML</div><div id="tab-group-4-tab-6" class="nav-link" data-group="group_4" data-tab="tab-group-4-content-6">CSS</div></div><div class="tab-content"><div id="tab-group-4-content-5" class="tab-pane active" data-group="group_4" tabindex="-1"><div><span><pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid"</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element-large"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element-large"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element"</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element-large"</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element"</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of4"</span>&gt;</span><br />    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"example-Element-large"</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br />  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br /><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br /></code></pre>
+</span></div></div><div id="tab-group-4-content-6" class="tab-pane" data-group="group_4" tabindex="-1"><div><span><pre><code class="hljs css language-css"><span class="hljs-selector-class">.example-Element</span> {<br />    <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#54827A</span>;<br />    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;<br />    <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span> <span class="hljs-number">20px</span>;<br />}<br /><span class="hljs-selector-class">.example-Element-large</span> {<br />    <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#329A5C</span>;<br />    <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span>;<br />    <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">20px</span>;<br />}<br /><br /></code></pre>
+</span></div></div></div></div>
+<div class="Grid">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element-large">1</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element-large">3</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">5</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element-large">6</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">7</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element-large">8</div>
+  </div>
+</div>
+<h2><a class="anchor" aria-hidden="true" id="configurable-variables"></a><a href="#configurable-variables" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configurable variables</h2>
+<ul>
+<li><code>--Grid-cell-gutter</code>: the width of the gutter applied by the
+<code>Grid--withGutter</code> modifier class.</li>
+<li><code>--Grid-fontSize</code>: Used by the inline-block fallback grid to reset font size
+changes made to the grid wrapper. Only required if you wish to use the
+inline-block fallback layout.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="use"></a><a href="#use" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Use</h2>
+<p>A simple grid is easy to create. A grid container can have any number of child
+cells. When used with <code>Grid--fit</code> space is evenly distributed without need for
+sizing utilities.</p>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid Grid--fit Grid--withGutter"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>For more granular control over layout make use of modifiers, sizing, and
+position utilities.</p>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid [Grid--alignCenter|Grid--alignRight|Grid--alignMiddle|Grid--alignBottom|Grid--fit|Grid--equalHeight]"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of2 u-lg-size6of12"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of2 u-push1of2 u-lg-size4of12 u-lg-pushNone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of3 u-pull1of2 u-lg-size2of12 u-lg-pullNone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="widths-and-offsets"></a><a href="#widths-and-offsets" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Widths and offsets</h3>
+<p>Cell widths and offsets, and column ordering can be controlled using the
+<a href="https://github.com/aptuitiv/cacao/tree/master/lib/utils/size">size utilities</a>
+and <a href="https://github.com/aptuitiv/cacao/tree/master/lib/utils/push">push</a> /
+<a href="https://github.com/aptuitiv/cacao/tree/master/lib/utils/push">pull</a>,
+respectively.</p>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid Grid--withGutter"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of2 u-lg-size6of12"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of2 u-push1of2 u-lg-size4of12 u-lg-pushNone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of3 u-pull1of2 u-lg-size2of12 u-lg-pullNone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p>You can nest grids in any context, but keep in mind that the dimensions will
+be relative to the containing element's width.</p>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid Grid--alignCenter"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size2of3"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid Grid--withGutter"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Grid-cell u-size1of2"</span>&gt;</span> <span class="hljs-comment">&lt;!-- 50% width of the parent Grid --&gt;</span>
+        {{&gt;partial}}
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/main"><span class="arrow-prev">← </span><span>Intro to Cacao</span></a><a class="docs-next button" href="/docs/button"><span>Button Component</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#features">Features</a></li><li><a href="#available-classes">Available classes</a><ul class="toc-headings"><li><a href="#examples">Examples</a></li></ul></li><li><a href="#configurable-variables">Configurable variables</a></li><li><a href="#use">Use</a><ul class="toc-headings"><li><a href="#widths-and-offsets">Widths and offsets</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Aptuitiv</section></footer></div></body></html>
