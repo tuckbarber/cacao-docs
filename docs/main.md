@@ -1,3 +1,9 @@
+---
+id: main
+title: Intro to Cacao
+---
+
+
 # Cacao
 
 A set of composable CSS modules that provide a solid foundation for starting
