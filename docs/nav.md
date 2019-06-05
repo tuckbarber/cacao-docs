@@ -3,10 +3,6 @@ id: nav
 title: Navigation Component
 ---
 
-# Navigation
-
-Put the styles for the site navigation here.
-
 ## MainNav
 
 Base structure for main navigation menus. Can easily be extended and / or 

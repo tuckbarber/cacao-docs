@@ -3,8 +3,6 @@ id: button
 title: Button Component
 ---
 
-# Button
-
 Provides a basic button template that includes a very basic default theme that
 is ready to be extended.
 
@@ -13,9 +11,9 @@ Basic visual tests are in [`test/modules/button.html`](http://aptuitiv.github.io
 
 ## Available classes
 
-* `Button`: The core button component
-* `Button--lg`: Adjusts padding so that button is larger
-* `Button--sm`: Adjusts padding so that button is smaller
+* `Button`: The core button component.
+* `Button--lg`: Adjusts padding so that button is larger.
+* `Button--sm`: Adjusts padding so that button is smaller.
 
 ### States
 

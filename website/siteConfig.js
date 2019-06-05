@@ -24,14 +24,14 @@ const siteConfig = {
   title: '', // Title for your website.
   tagline: 'Documentation for the Cacao CSS Framework',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  baseUrl: '/cacao-docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: 'cacao-docs',
-  organizationName: 'aptuitiv',
+  organizationName: 'tuckbarber',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -48,7 +48,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/cacao-logo.png',
-  footerIcon: 'img/favicon.ico',
+  footerIcon: 'img/cacao-icon-white.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */

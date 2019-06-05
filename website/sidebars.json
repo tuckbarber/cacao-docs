@@ -1,7 +1,7 @@
 {
   "docs": {
     "Cacao": ["main"],
-    "Components": ["grid", "button", "nav"],
+    "Components": ["arrange", "breadcrumb", "button", "constrain", "container", "content", "flexembed", "footer", "form", "grid", "header", "image", "list", "media", "message", "nav", "pagination", "triangle"],
     "Second Category": ["doc3"]
   },
   "docs-other": {

@@ -24,8 +24,6 @@ title: Grid Component
 
 </style>
 
-# Grid
-
 A CSS grid component. The grid makes use of `flexbox` to provide features that 
 float-based layouts cannot. Utilizes an inline-block fallback for browsers that 
 lack `flexbox` or `flex-wrap` support. 
@@ -74,7 +72,7 @@ without flexbox support.
 
 ### Examples
 
-#### Grid Cells
+### Grid Cells
 removes inter-cell whitespace by default
 
 
