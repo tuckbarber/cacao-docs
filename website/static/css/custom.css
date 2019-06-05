@@ -14,3 +14,20 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+/* Custom CSS below */
+.tab-content {
+    height: 250px;
+    overflow: scroll;
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #6f6f6f;
+    margin-bottom: 10px;
+}
+
+.code-sample {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #6f6f6f;
+    border-top: 1px solid #6f6f6f;
+    padding: 10px 5px;
+    margin: 10px 0 60px 0;
+}

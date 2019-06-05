@@ -16,11 +16,6 @@ title: Grid Component
     color: #FFF;
     padding: 20px 20px;
 }
-.tab-pane {
-    height: 250px;
-    overflow: scroll;
-    margin: 10px 0 50px 0;
-}
 
 </style>
 
@@ -75,7 +70,7 @@ without flexbox support.
 ### Grid Cells
 removes inter-cell whitespace by default
 
-
+<div class="code-sample">
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
@@ -106,26 +101,24 @@ removes inter-cell whitespace by default
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 
-
 <div class="Grid">
-      <div class="Grid-cell u-size1of4">
-        <div class="example-Element">1</div>
-      </div>
-      <div class="Grid-cell u-size1of4">
-        <div class="example-Element">2</div>
-      </div>
-      <div class="Grid-cell u-size1of4">
-        <div class="example-Element">3</div>
-      </div>
-      <div class="Grid-cell u-size1of4">
-        <div class="example-Element">4</div>
-      </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">3</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-Element">4</div>
+  </div>
 </div>
-<br>
-<br>
-<br>
-
+</div>
 arranges cells of different heights into clear rows
+
+<div class="code-sample">
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
@@ -200,7 +193,7 @@ arranges cells of different heights into clear rows
     <div class="example-Element-large">8</div>
   </div>
 </div>
-
+</div>
 
 ## Configurable variables
 
