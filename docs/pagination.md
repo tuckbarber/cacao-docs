@@ -1,6 +1,6 @@
 ---
 id: pagination
-title: Pagination Component
+title: Pagination
 ---
 
 Pagination for iterative pages.

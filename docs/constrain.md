@@ -1,7 +1,19 @@
 ---
 id: constrain
-title: Constrain Component
+title: Constrain
 ---
+
+<style>
+.example-Parent{
+    display: inline-block;   
+    margin: 2%;
+    width: 45%;
+    border: 2px #ddd solid;
+}
+.example-Element{
+    background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
+}
+</style>
 
 Constrains an image of unknown size to the specified aspect ratio.
 The image is potentially cropped using the specified gravity.
@@ -47,6 +59,53 @@ either by applying a custom class or using inline styles.
 <div class="Constrain Constrain--16by9" style="background-image: url('...');"></div>
 ```
 
+<div class="code-sample">
+<!--DOCUSAURUS_CODE_TABS-->
+<!--HTML-->
+```html
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--3by2"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--5by4"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--3by2 Constrain--contain Constrain--left"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--5by4 Constrain--contain Constrain--topRight"></div>
+</div>
+```
+<!--CSS-->
+```css
+.example-Parent{
+    display: inline-block;   
+    margin: 2%;
+    width: 45%;
+    border: 2px #ddd solid;
+}
+.example-Element{
+    /* Photo by Hannah Busing on Unsplash */
+    background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
+}
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--3by2"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--5by4"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--3by2 Constrain--contain Constrain--left"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-Element Constrain Constrain--5by4 Constrain--contain Constrain--topRight"></div>
+</div>
+
+</div>
+
 You can add custom aspect ratios. For example, to create a 2.35:1 aspect
 ratio:
 
@@ -66,3 +125,4 @@ corresponding `padding-bottom` value applied using an inline style.
 ```html
 <div class="Constrain Constrain--16by9" style="background-image: url('...'); padding-bottom: 42.55%;"></div>
 ```
+

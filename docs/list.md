@@ -1,6 +1,6 @@
 ---
 id: list
-title: List Component
+title: List
 ---
 
 Generic list component that applies common treatments to `<ul>` and 

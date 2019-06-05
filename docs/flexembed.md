@@ -1,6 +1,6 @@
 ---
 id: flexembed
-title: FlexEmbed Component
+title: FlexEmbed
 ---
 
 CSS for responsive, intrinsic ratio embeds.

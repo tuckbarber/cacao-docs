@@ -1,6 +1,6 @@
 ---
 id: message
-title: Message Component
+title: Message
 ---
 
 ### Available classes

@@ -1,6 +1,6 @@
 ---
 id: media
-title: Media Component
+title: Media
 ---
 
 

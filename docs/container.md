@@ -1,6 +1,6 @@
 ---
 id: container
-title: Container Component
+title: Container
 ---
 
 Page content container.

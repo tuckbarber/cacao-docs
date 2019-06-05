@@ -1,6 +1,6 @@
 ---
 id: header
-title: Header Component
+title: Header
 ---
 
 To be styled.

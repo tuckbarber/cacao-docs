@@ -1,6 +1,6 @@
 ---
 id: form
-title: Form Component
+title: Form
 ---
 
 Provides custom styling for form fields and their various states.

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/cacao-docs/blog</id>
-    <title> Blog</title>
+    <title>Cacao Documentation Blog</title>
     <updated>2016-03-11T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/cacao-docs/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest  news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest Cacao Documentation news and events.</subtitle>
     <logo>https://your-docusaurus-test-site.com/cacao-docs/img/cacao-logo.png</logo>
     <rights>Copyright © 2019 Aptuitiv</rights>
     <entry>

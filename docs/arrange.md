@@ -1,12 +1,13 @@
 ---
 id: arrange
-title: Arrange Component
+title: Arrange
 ---
 
 <style>
 .example-Child {
     background-color: #329A5C;
     padding: 5px 10px;
+    text-align: center;
 }
 </style>
 
@@ -29,7 +30,7 @@ equal width, and to control their vertical alignment.
 
 * `--Arrange-gutter-size`: The width of the gutter applied by the `Arrange--withGutter` modifier class.
 
-## Examples
+## Usage
 
 For a comparison of `sizeFit` vs `sizeFill` elements:
 
@@ -39,13 +40,13 @@ For a comparison of `sizeFit` vs `sizeFill` elements:
 ```html
 <div class="example-Parent Arrange Arrange--withGutter">
     <div class="Arrange-sizeFit"> 
-        <div class="example-Child"> sizeFit<br>Element </div>
+        <div class="example-Child"> sizeFit<br>element </div>
     </div>
     <div class="Arrange-sizeFill"> 
-        <div class="example-Child"> One<br>sizeFill </div>
+        <div class="example-Child"> one<br>sizeFill </div>
     </div>
     <div class="Arrange-sizeFit">
-        <div class="example-Child"> Another<br>sizeFit </div>
+        <div class="example-Child"> another<br>sizeFit </div>
     </div>
 </div>
 ```
@@ -54,14 +55,15 @@ For a comparison of `sizeFit` vs `sizeFill` elements:
 .example-Child {
     background-color: #329A5C;
     padding: 5px 10px;
+    text-align: center;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 <div class="example-Parent Arrange Arrange--withGutter">
-    <div class="Arrange-sizeFit"> <div class="example-Child"> sizeFit<br>Element </div> </div>
-    <div class="Arrange-sizeFill"> <div class="example-Child"> One<br>sizeFill </div> </div>
-    <div class="Arrange-sizeFit"> <div class="example-Child"> Another<br>sizeFit </div> </div>
+    <div class="Arrange-sizeFit"> <div class="example-Child"> sizeFit<br>element </div> </div>
+    <div class="Arrange-sizeFill"> <div class="example-Child"> one<br>sizeFill </div> </div>
+    <div class="Arrange-sizeFit"> <div class="example-Child"> another<br>sizeFit </div> </div>
 </div>
 </div>
 
@@ -73,13 +75,13 @@ Using `Arrange--equal` to keep child elements of equal size despite their conten
 ```html
 <div class="example-Parent Arrange Arrange--equal Arrange--withGutter">
     <div class="Arrange-sizeFit">
-        <div class="example-Child"> sizeFit<br>Element </div>
+        <div class="example-Child"> sizeFit<br>element </div>
     </div>
     <div class="Arrange-sizeFit">
         <div class="example-Child"> sizeFit with more content but is the same size</div>
     </div>
     <div class="Arrange-sizeFit">
-        <div class="example-Child"> Another<br>sizeFit </div>
+        <div class="example-Child"> another<br>sizeFit </div>
     </div>
 </div>
 ```
@@ -88,15 +90,16 @@ Using `Arrange--equal` to keep child elements of equal size despite their conten
 .example-Child {
     background-color: #329A5C;
     padding: 5px 10px;
+    text-align: center;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 
 <div class="example-Parent Arrange Arrange--equal Arrange--withGutter">
-    <div class="Arrange-sizeFit"> <div class="example-Child"> sizeFit<br>Element </div> </div>
+    <div class="Arrange-sizeFit"> <div class="example-Child"> sizeFit<br>element </div> </div>
     <div class="Arrange-sizeFit"> <div class="example-Child"> sizeFit with more content but is the same size</div> </div>
-    <div class="Arrange-sizeFit"> <div class="example-Child"> Another<br>sizeFit </div> </div>
+    <div class="Arrange-sizeFit"> <div class="example-Child"> another<br>sizeFit </div> </div>
 </div>
 
 </div>

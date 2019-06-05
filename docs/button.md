@@ -1,6 +1,6 @@
 ---
 id: button
-title: Button Component
+title: Button
 ---
 
 Provides a basic button template that includes a very basic default theme that
@@ -41,29 +41,38 @@ Basic visual tests are in [`test/modules/button.html`](http://aptuitiv.github.io
 * `--Button-paddingSm`: Smaller padding shorthand.
 
 
-## Use
+## Usage
 
-Examples:
-
+<div class="code-sample">
+<!--DOCUSAURUS_CODE_TABS-->
+<!--HTML-->
 ```html
 <a class="Button" href="{{url}}">Sign up</a>
 
 <button class="Button is-disabled" type="button" disabled>Close</button>
 ```
+<!--END_DOCUSAURUS_CODE_TABS-->
+<a class="Button">Sign up</a>
+<button class="Button is-disabled" type="button" disabled>Close</button>
+</div>
 
 ### Theming / extending
 
 The CSS is focused on common structural requirements for buttons. You can build
 your application-specific theme styles in your app. For example:
 
+<div class="code-sample">
+
+<!--DOCUSAURUS_CODE_TABS-->
+<!--CSS-->
 ```css
 /* import the module or write these styles directly in `button.css` */
 @import "cacao/lib/button";
 
 .Button--default {
-  background-color: #eee;
-  color: #444;
-  border-color: #d9d9d9 #d9d9d9 #ccc;
+  background-color: #0E3E62;
+  color: #eee;
+  border: 5px #32648a solid;
   border-radius: 2px;
 }
 
@@ -71,9 +80,8 @@ your application-specific theme styles in your app. For example:
 .Button--default:focus,
 .Button--default:active,
 .Button--default.is-pressed {
-  background-color: #f5f5f5;
-  color: #222;
-  border-color: #c6c6c6 #c6c6c6 #bbb;
+  background-color: #32648a;
+  border-color: #517d9f;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -84,8 +92,41 @@ your application-specific theme styles in your app. For example:
 
 .Button--default:active,
 .Button--default.is-pressed {
-  background-color: #ccc;
+  background-color: #042a47;
   box-shadow: inset 0 1px 2px rgba(0,0,0, 0.2);
 }
 ```
+<!--HTML-->
+```html
+<a class="Button Button--default" href="{{url}}">Custom Button</a>
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
 
+
+
+<style>
+.Button--default {
+  background-color: #0E3E62;
+  color: #eee;
+  border: 5px #32648a solid;
+  border-radius: 2px;
+}
+.Button--default:hover,
+.Button--default:focus,
+.Button--default:active,
+.Button--default.is-pressed {
+  background-color: #32648a;
+  border-color: #517d9f;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.Button--default:focus {
+  border-color: #069;
+  outline: 0;
+}
+.Button--default:active,
+.Button--default.is-pressed {
+  background-color: #042a47;
+  box-shadow: inset 0 1px 2px rgba(0,0,0, 0.2);
+}
+</style>
+<a class="Button Button--default" href="#theming-extending">Custom Button</a>

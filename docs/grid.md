@@ -1,6 +1,6 @@
 ---
 id: grid
-title: Grid Component
+title: Grid
 ---
 
 <style>

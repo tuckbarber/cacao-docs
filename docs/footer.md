@@ -1,6 +1,6 @@
 ---
 id: footer
-title: Footer Component
+title: Footer
 ---
 
 To be styled.

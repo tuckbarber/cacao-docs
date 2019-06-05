@@ -1,6 +1,6 @@
 ---
 id: breadcrumb
-title: Breadcrumb Component
+title: Breadcrumb
 ---
 
 Provides basic setup for breadcrumb navigation

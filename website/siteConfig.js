@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: '', // Title for your website.
+  title: 'Cacao Documentation', // Title for your website.
   tagline: 'Documentation for the Cacao CSS Framework',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/cacao-docs/', // Base URL for your project */

@@ -1,6 +1,6 @@
 ---
 id: triangle
-title: Triangle Component
+title: Triangle
 ---
 
 A simple inline CSS triangle that scales with font size. Must be used with 

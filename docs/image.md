@@ -1,6 +1,6 @@
 ---
 id: image
-title: Image Component
+title: Image
 ---
 
 Generic component that applies common treatments to `<img>` elements.

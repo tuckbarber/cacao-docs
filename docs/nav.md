@@ -1,6 +1,6 @@
 ---
 id: nav
-title: Navigation Component
+title: Navigation
 ---
 
 ## MainNav

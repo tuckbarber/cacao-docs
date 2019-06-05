@@ -1,6 +1,6 @@
 ---
 id: content
-title: Content Component
+title: Content
 ---
 
 Container for main contain.
