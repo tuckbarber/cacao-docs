@@ -36,3 +36,17 @@
     padding: 10px 5px;
     margin: 10px 0 60px 0;
 }
+
+.code-sample:before{
+    content: "Code Sample:";
+    font-weight: bold;
+}
+
+.code-sample > .tabs:after{
+    border-bottom: 1px solid #cfcfcf;
+    content: "Output:";
+    display: block;
+    font-weight: bold;
+    margin: 0 auto 10px auto;
+    width: 99%;
+}

@@ -19,7 +19,20 @@ Basic visual tests are in [`test/modules/triangle.html`](http://aptuitiv.github.
 
 
 ## Usage
+<!--DOCUSAURUS_CODE_TABS-->
 
+<!--HTML-->
 ```html
 <p><span class="Triangle Triangle--right"></span> Lorem ipsum...</p>
+<p><span class="Triangle Triangle--down"></span> Lorem ipsum...</p>
+<p><span class="Triangle Triangle--left"></span> Lorem ipsum...</p>
+<p><span class="Triangle Triangle--up"></span> Lorem ipsum...</p>
 ```
+<!--END_DOCUSAURUS_CODE_TABS-->
+<p><span class="Triangle Triangle--right"></span> Lorem ipsum...</p>
+<p><span class="Triangle Triangle--down"></span> Lorem ipsum...</p>
+<p><span class="Triangle Triangle--left"></span> Lorem ipsum...</p>
+<p><span class="Triangle Triangle--up"></span> Lorem ipsum...</p>
+
+</div>
+

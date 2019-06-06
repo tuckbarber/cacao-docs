@@ -87,6 +87,9 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
+  //Collapsable docs menu
+  docsSideNavCollapsible: true,
+
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',

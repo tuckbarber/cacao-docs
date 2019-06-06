@@ -22,3 +22,28 @@ title: Message
 * `--Message-error-background`: Message area background color in case of error.
 * `--Message-error-borderColor`: Message area border color in case of error.
 * `--Message-error-color`: Message area text color in case of error.
+
+<div class="code-sample">
+<!--DOCUSAURUS_CODE_TABS-->
+
+<!--HTML-->
+```html
+<div class="Message Message--error">
+    <b>Error:</b> task has failed to succeed.
+</div>
+<br>
+<div class="Message Message--success">
+    <b>Success:</b> task has successfully failed. 
+</div>
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+
+<div class="Message Message--error">
+    <b>Error:</b> task has failed to succeed.
+</div>
+<br>
+<div class="Message Message--success">
+    <b>Success:</b> task has successfully failed. 
+</div>
+
+</div>

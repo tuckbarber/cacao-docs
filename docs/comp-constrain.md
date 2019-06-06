@@ -5,10 +5,10 @@ title: Constrain
 
 <style>
 .example-Parent{
+    border: 2px #bbb solid;
     display: inline-block;   
     margin: 2%;
     width: 45%;
-    border: 2px #ddd solid;
 }
 .example-Element{
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
@@ -22,7 +22,6 @@ Similar to `FlexEmbed` but meant to be used specifically with images.
 This method will be used until the `object-fit` and `object-position`
 properties are well supported. <http://caniuse.com/#feat=object-fit>
 
-Basic visual tests are in [`test/modules/constrain.html`](http://aptuitiv.github.io/cacao/test/modules/constrain.html).
 
 
 ## Available classes
@@ -61,32 +60,41 @@ either by applying a custom class or using inline styles.
 
 <div class="code-sample">
 <!--DOCUSAURUS_CODE_TABS-->
+
 <!--HTML-->
 ```html
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--3by2"></div>
+    <div class="example-Element Constrain 
+                Constrain--3by2"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--5by4"></div>
+    <div class="example-Element Constrain 
+                Constrain--16by9 Constrain--top"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--3by2 Constrain--contain Constrain--left"></div>
+    <div class="example-Element Constrain 
+                Constrain--3by2 Constrain--contain Constrain--left"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--5by4 Constrain--contain Constrain--topRight"></div>
+    <div class="example-Element Constrain 
+                Constrain--16by9 Constrain--contain Constrain--topRight"></div>
 </div>
 ```
+
 <!--CSS-->
 ```css
 .example-Parent{
+    border: 2px #bbb solid;
     display: inline-block;   
     margin: 2%;
     width: 45%;
-    border: 2px #ddd solid;
 }
+
 .example-Element{
     /* Photo by Hannah Busing on Unsplash */
-    background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
+    background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
+                          ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
+                          &fit=crop&w=400&q=80);
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
@@ -95,13 +103,13 @@ either by applying a custom class or using inline styles.
     <div class="example-Element Constrain Constrain--3by2"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--5by4"></div>
+    <div class="example-Element Constrain Constrain--16by9 Constrain--top"></div>
 </div>
 <div class="example-Parent">
     <div class="example-Element Constrain Constrain--3by2 Constrain--contain Constrain--left"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--5by4 Constrain--contain Constrain--topRight"></div>
+    <div class="example-Element Constrain Constrain--16by9 Constrain--contain Constrain--topRight"></div>
 </div>
 
 </div>

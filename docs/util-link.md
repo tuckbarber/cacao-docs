@@ -1,0 +1,4 @@
+---
+   id: link
+   title: Link
+---

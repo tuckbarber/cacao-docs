@@ -1,8 +1,8 @@
 {
   "docs": {
     "Cacao": ["main"],
-    "Components": ["arrange", "breadcrumb", "button", "constrain", "container", "content", "flexembed", "footer", "form", "grid", "header", "image", "list", "media", "message", "nav", "pagination", "triangle"],
-    "Second Category": ["doc3"]
+    "Components": ["arrange", "breadcrumb", "button", "constrain", "container", "content", "flexembed", "footer", "form", "grid", "header", "image", "list", "media", "message", "navigation", "pagination", "triangle"],
+    "Utilities": ["align", "background", "display", "flex", "image", "layout", "link", "margin", "padding", "position", "pull", "push", "radius", "size", "typography"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

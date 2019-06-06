@@ -1,5 +1,5 @@
 ---
-id: nav
+id: navigation
 title: Navigation
 ---
 
@@ -32,7 +32,7 @@ themed.
 * `-MainNav-link-colorHover`: Foreground color of hovered menu links.
 
 
-### Use
+### Usage
 
 Examples:
 
@@ -60,7 +60,6 @@ Examples:
   </li>
 </ul>
 ```
-
 
 
 ## Dropdown
@@ -92,7 +91,7 @@ Base structure for dropdown menus. Can easily be extended and / or themed.
 * `--Dropdown-link-colorHover`: Foreground color of hovered links within the dropdown.
 
 
-### Use
+### Usage
 
 Examples:
 

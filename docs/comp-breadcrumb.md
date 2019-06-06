@@ -3,7 +3,7 @@ id: breadcrumb
 title: Breadcrumb
 ---
 
-Provides basic setup for breadcrumb navigation
+Provides basic setup for breadcrumb navigation.
 
 ## Available classes
 
