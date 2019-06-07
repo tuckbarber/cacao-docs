@@ -3,4 +3,4 @@
    title: Background
 ---
 
-Background
+Utility for the background color of elements.
