@@ -4,17 +4,19 @@ title: Grid
 ---
 
 <style>
-.example-Element {
+.example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
     padding: 10px 20px;
+    width: 100%;
 }
-.example-Element-large {
+.example-element-large {
     background-color: #54827A;
     border-radius: 5px;
     color: #FFF;
     padding: 20px 20px;
+    width: 100%;
 }
 
 </style>
@@ -51,8 +53,8 @@ the grid via other classes. For example,
 * `Grid--alignRight`: right-align all child `Grid-cell`
 * `Grid--alignMiddle`: middle-align all child `Grid-cell`
 * `Grid--alignBottom`: bottom-align all child `Grid-cell`
-* `Grid--fit`: evenly distribute space amongst all child `Grid-cell`
 * `Grid--equalHeight`: all child `Grid-cell` match height of the tallest
+* `Grid--fit`: evenly distribute space amongst all child `Grid-cell`
 * `Grid--withGutter`: adds a gutter between cells
 * `Grid--withGutterSm`: adds a smaller gutter between cells
 * `Grid--withGutterLg`: adds a larger gutter between cells
@@ -74,131 +76,14 @@ without flexbox support.
 
 ## Usage
 
-<div class="code-sample">
-
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML-->
-```html
-<div class="Grid Grid--withGutter">
-      <div class="Grid-cell u-size1of4">
-        <div class="example-Element">1</div>
-      </div>
-      <div class="Grid-cell u-size1of2">
-        <div class="example-Element">2</div>
-      </div>
-      <div class="Grid-cell u-size1of4">
-        <div class="example-Element">3</div>
-      </div>
-</div>
-```
-<!--CSS-->
-```css
-.example-Element {
-    background-color: #54827A;
-    color: #FFF;
-    border-radius: 5px;
-    padding: 5px 20px;
-}
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
-
-<div class="Grid Grid--withGutter">
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element">1</div>
-  </div>
-  <div class="Grid-cell u-size1of2">
-    <div class="example-Element">2</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element">3</div>
-  </div>
-</div>
-</div>
-
-Be default, using `Grid`:
+By default, using `Grid`:
 * removes inter-cell whitespace by default
 * arranges cells of different heights into clear rows
 * automatically wraps cells across multiple lines when they don't fit a single row
 * arranges cells of different heights into clear rows
 
-<div class="code-sample">
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML-->
-```html
-<div class="Grid">
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element"> 1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of3">
-    <div class="example-Element">1 of 3</div>
-  </div>
-  <div class="Grid-cell u-size1of6">
-    <div class="example-Element-large">1 of 6</div>
-  </div>
-  <div class="Grid-cell u-size1of3 ">
-    <div class="example-Element">1 of 6</div>
-  </div>
-  <div class="Grid-cell u-size1of6">
-    <div class="example-Element-large">1 of 3</div>
-  </div>
-</div>
-```
-<!--CSS-->
-```css
-.example-Element {
-    background-color: #54827A;
-    border-radius: 5px;
-    color: #FFF;
-    padding: 5px 20px;
-}
-.example-Element-large {
-    background-color: #329A5C;
-    border-radius: 5px;
-    color: #FFF;
-    padding: 10px 20px;
-}
-
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
-
-<div class="Grid">
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element"> 1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of3">
-    <div class="example-Element">1 of 3</div>
-  </div>
-  <div class="Grid-cell u-size1of6">
-    <div class="example-Element-large">1 of 6</div>
-  </div>
-  <div class="Grid-cell u-size1of3 ">
-    <div class="example-Element">1 of 3</div>
-  </div>
-  <div class="Grid-cell u-size1of6">
-    <div class="example-Element-large">1 of 6</div>
-  </div>
-</div>
-</div>
-
+### Aligning
 Using `Grid--align[Center|Right|Middle|Bottom]`, cells can be aligned relative to their container. This will not affect the content within the cells.
 
 <div class="code-sample">
@@ -206,56 +91,241 @@ Using `Grid--align[Center|Right|Middle|Bottom]`, cells can be aligned relative t
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
+No modifier
+<div class="Grid Grid--withGutterSm">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignCenter
+<div class="Grid Grid--withGutterSm Grid--alignCenter">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignRight
+<div class="Grid Grid--withGutterSm Grid--alignRight">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignMiddle
+<div class="Grid Grid--withGutterSm Grid--alignMiddle">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignBottom
 <div class="Grid Grid--withGutterSm Grid--alignBottom">
   <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
+    <div class="example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="example-Element"> 1 of 4</div>
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+```
+<!--CSS-->
+```css
+.example-element {
+    background-color: #54827A;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 20px;
+    width: 100%;
+}
+.example-element-large {
+    background-color: #54827A;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+No modifier
+<div class="Grid Grid--withGutterSm">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignCenter
+<div class="Grid Grid--withGutterSm Grid--alignCenter">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="example-Element">1 of 4</div>
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignRight
+<div class="Grid Grid--withGutterSm Grid--alignRight">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
   </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignMiddle
+<div class="Grid Grid--withGutterSm Grid--alignMiddle">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+--alignBottom
+<div class="Grid Grid--withGutterSm Grid--alignBottom">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element-large">1 of 4</div>
+    </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1 of 4</div>
+   </div>
+</div>
+
+</div>
+
+
+
+### Grid Equal Height
+
+<div class="code-sample">
+
+<!--DOCUSAURUS_CODE_TABS-->
+<!--HTML-->
+```html
+<div class="Grid Grid--withGutter">
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element-large">Tall Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+</div>
+<br>
+--equalHeight
+<div class="Grid Grid--withGutter Grid--equalHeight">
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element-large">Tall Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
   </div>
 </div>
 ```
 <!--CSS-->
 ```css
-.example-Element {
+.example-element {
+    background-color: #54827A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.example-element-large {
     background-color: #54827A;
     border-radius: 5px;
     color: #FFF;
-    padding: 5px 20px;
-}
-.example-Element-large {
-    background-color: #329A5C;
-    border-radius: 5px;
-    color: #FFF;
-    padding: 10px 20px;
+    padding: 20px 20px;
+    width: 100%;
 }
 
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
+No modifier
+<div class="Grid Grid--withGutter">
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element-large">Tall Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+</div>
+<br>
+--equalHeight
+<div class="Grid Grid--withGutter Grid--equalHeight">
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element-large">Tall Cell</div>
+  </div>
+  <div class="Grid-cell u-size1of3">
+    <div class="example-element">Short Cell</div>
+  </div>
+</div>
+
+</div>
 
 
-<div class="Grid Grid--withGutterSm Grid--alignBottom">
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element">1 of 4</div>
-  </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element-large">1 of 4</div>
-    </div>
-  <div class="Grid-cell u-size1of4">
-    <div class="example-Element">1 of 4</div>
-   </div>
-</div>
-</div>
+### Grid Fit
 
 A simple grid is easy to create. A grid container can have any number of child
 cells. When used with `Grid--fit` space is evenly distributed without need for
@@ -268,47 +338,171 @@ sizing utilities.
 ```html
 <div class="Grid Grid--fit Grid--withGutter">
   <div class="Grid-cell">
-    <div class="example-Element">1</div>
+    <div class="example-element">1</div>
   </div>
   <div class="Grid-cell">
-    <div class="example-Element">2</div>
+    <div class="example-element">2</div>
   </div>
   <div class="Grid-cell">
-    <div class="example-Element">3</div>
+    <div class="example-element">3</div>
   </div>
   <div class="Grid-cell">
-    <div class="example-Element">4</div>
+    <div class="example-element">4</div>
   </div>
 </div>
 ```
 
 <!--CSS-->
 ```css
-.example-Element {
+.example-element {
     background-color: #54827A;
     border-radius: 5px;
     color: #FFF;
     padding: 5px 20px;
+    width: 100%;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 <div class="Grid Grid--fit Grid--withGutter">
   <div class="Grid-cell">
-    <div class="example-Element">1</div>
+    <div class="example-element">1</div>
   </div>
   <div class="Grid-cell">
-    <div class="example-Element">2</div>
+    <div class="example-element">2</div>
   </div>
   <div class="Grid-cell">
-    <div class="example-Element">3</div>
+    <div class="example-element">3</div>
   </div>
   <div class="Grid-cell">
-    <div class="example-Element">4</div>
+    <div class="example-element">4</div>
   </div>
 </div>
 
 </div>
 
+
+
+### Gutters
+
+Gutters can be applied in several sizes.
+
+<div class="code-sample">
+
+<!--DOCUSAURUS_CODE_TABS-->
+<!--HTML-->
+```html
+--withGutter
+<div class="Grid Grid--withGutter">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+--withGutterSm
+<div class="Grid Grid--withGutterSm">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+--withGutterLg
+<div class="Grid Grid--withGutterLg">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+--withGutterXlg
+<div class="Grid Grid--withGutterXlg">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+```
+<!--CSS-->
+```css
+.example-element {
+    background-color: #54827A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 100%;
+}
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+--withGutter
+<div class="Grid Grid--withGutter">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+--withGutterSm
+<div class="Grid Grid--withGutterSm">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+--withGutterLg
+<div class="Grid Grid--withGutterLg">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+--withGutterXlg
+<div class="Grid Grid--withGutterXlg">
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">1</div>
+  </div>
+  <div class="Grid-cell u-size1of2">
+    <div class="example-element">2</div>
+  </div>
+  <div class="Grid-cell u-size1of4">
+    <div class="example-element">3</div>
+  </div>
+</div>
+
+</div>
+
+### Using utilities
 
 For more granular control over layout make use of modifiers, sizing, and 
 position utilities.

@@ -8,7 +8,7 @@ title: Container
     margin-bottom: 20px;
     width: 500px;
 }
-.example-Element {
+.example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
@@ -54,17 +54,17 @@ Page content container.
 <!--HTML-->
 ```html
 <div class="example-Parent">
-    <p class="example-Element Container">
+    <p class="example-element Container">
         This is some text that is contained within the container.
     </p>
-    <p class="example-Element Container Container--fixedWidth">
+    <p class="example-element Container Container--fixedWidth">
         A fixedWidth container will not shrink to fit viewport.
     </p>
 </div>
-<p class="example-Element Container Container--alignLeft">
+<p class="example-element Container Container--alignLeft">
     This container is aligned left.
 </p>
-<p class="example-Element Container Container--alignRight">
+<p class="example-element Container Container--alignRight">
     And this one is aligned right.
 </p>
 ```
@@ -80,7 +80,7 @@ Page content container.
     width: 500px;
 }
 
-.example-Element {
+.example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
@@ -90,17 +90,17 @@ Page content container.
 <!--END_DOCUSAURUS_CODE_TABS-->
 
 <div class="example-Parent">
-    <p class="example-Element Container">
+    <p class="example-element Container">
         This is some text that is contained within the container.
     </p>
-    <p class="example-Element Container Container--fixedWidth">
+    <p class="example-element Container Container--fixedWidth">
         A fixedWidth container will not shrink to fit viewport.
     </p>
 </div>
-<p class="example-Element Container Container--alignLeft">
+<p class="example-element Container Container--alignLeft">
     This container is aligned left.
 </p>
-<p class="example-Element Container Container--alignRight">
+<p class="example-element Container Container--alignRight">
     And this one is aligned right.
 </p>
 

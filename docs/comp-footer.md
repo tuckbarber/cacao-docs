@@ -3,4 +3,4 @@ id: footer
 title: Footer
 ---
 
-To be styled.
+A component for a footer. To be customized and styled.

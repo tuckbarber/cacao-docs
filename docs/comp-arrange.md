@@ -109,7 +109,7 @@ Using `Arrange--equal` to keep child elements of equal size despite their conten
 
 </div>
 
-Using `Arrange-row`, one with `Arrange--middle` the other with `Arrange--bottom`:
+Using `Arrange-row`, one row is set to `Arrange--middle` and the other is `Arrange--bottom`:
 
 <div class="code-sample">
 <!--DOCUSAURUS_CODE_TABS-->

@@ -5,13 +5,13 @@ title: Constrain
 
 <style>
 .example-Parent{
-    border: 2px #bbb solid;
     display: inline-block;   
     margin: 2%;
     width: 45%;
 }
-.example-Element{
+.example-element{
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
+    border: 2px #bbb solid;
 }
 </style>
 
@@ -63,53 +63,86 @@ either by applying a custom class or using inline styles.
 
 <!--HTML-->
 ```html
+<h3>Ratios:</h3>
 <div class="example-Parent">
-    <div class="example-Element Constrain 
-                Constrain--3by2"></div>
+    5by4
+    <div class="example-element Constrain Constrain--5by4"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain 
-                Constrain--16by9 Constrain--top"></div>
+    4by3
+    <div class="example-element Constrain Constrain--4by3"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain 
-                Constrain--3by2 Constrain--contain Constrain--left"></div>
+    3by2
+    <div class="example-element Constrain Constrain--3by2"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain 
-                Constrain--16by9 Constrain--contain Constrain--topRight"></div>
+    8by5
+    <div class="example-element Constrain Constrain--8by5"></div>
+</div>
+<div class="example-Parent">
+    16by9
+    <div class="example-element Constrain Constrain--16by9"></div>
+</div>
+
+<h3>Gravitate with modifiers</h3>
+<div class="example-Parent">
+   --top
+    <div class="example-element Constrain Constrain--16by9 Constrain--top"></div>
+</div>
+<div class="example-Parent">
+    --bottom
+    <div class="example-element Constrain Constrain--16by9 Constrain--bottom"></div>
 </div>
 ```
 
 <!--CSS-->
 ```css
 .example-Parent{
-    border: 2px #bbb solid;
     display: inline-block;   
     margin: 2%;
     width: 45%;
 }
 
-.example-Element{
+.example-element{
     /* Photo by Hannah Busing on Unsplash */
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
                           ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
                           &fit=crop&w=400&q=80);
+    border: 2px #bbb solid;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
+<h3>Ratios:</h3>
+<div class="example-Parent">
+    5by4
+    <div class="example-element Constrain Constrain--5by4"></div>
+</div>
+<div class="example-Parent">
+    4by3
+    <div class="example-element Constrain Constrain--4by3"></div>
+</div>
+<div class="example-Parent">
+    3by2
+    <div class="example-element Constrain Constrain--3by2"></div>
+</div>
+<div class="example-Parent">
+    8by5
+    <div class="example-element Constrain Constrain--8by5"></div>
+</div>
+<div class="example-Parent">
+    16by9
+    <div class="example-element Constrain Constrain--16by9"></div>
+</div>
 
+<h3>Gravitate with modifiers</h3>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--3by2"></div>
+   --top
+    <div class="example-element Constrain Constrain--16by9 Constrain--top"></div>
 </div>
 <div class="example-Parent">
-    <div class="example-Element Constrain Constrain--16by9 Constrain--top"></div>
-</div>
-<div class="example-Parent">
-    <div class="example-Element Constrain Constrain--3by2 Constrain--contain Constrain--left"></div>
-</div>
-<div class="example-Parent">
-    <div class="example-Element Constrain Constrain--16by9 Constrain--contain Constrain--topRight"></div>
+    --bottom
+    <div class="example-element Constrain Constrain--16by9 Constrain--bottom"></div>
 </div>
 
 </div>
@@ -134,3 +167,72 @@ corresponding `padding-bottom` value applied using an inline style.
 <div class="Constrain Constrain--16by9" style="background-image: url('...'); padding-bottom: 42.55%;"></div>
 ```
 
+### Containing Image
+
+Alternatively, the `Constrain--contain` modifier can be used to ensure that
+the entire background image is visible.
+
+<div class="code-sample">
+<!--DOCUSAURUS_CODE_TABS-->
+
+<!--HTML-->
+```html
+<div class="example-Parent">
+    <div class="example-element Constrain 
+                Constrain--5by4 Constrain--contain"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-element Constrain 
+                Constrain--16by9 Constrain--contain"></div>
+</div>
+
+<div class="example-Parent">
+    --left
+    <div class="example-element Constrain 
+                Constrain--16by9 Constrain--contain Constrain--left"></div>
+</div>
+<div class="example-Parent">
+    --right
+    <div class="example-element Constrain 
+                Constrain--16by9 Constrain--contain Constrain--right"></div>
+</div>
+```
+
+<!--CSS-->
+```css
+.example-Parent{
+    display: inline-block;   
+    margin: 2%;
+    width: 45%;
+}
+
+.example-element{
+    /* Photo by Hannah Busing on Unsplash */
+    background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
+                          ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
+                          &fit=crop&w=400&q=80);
+    border: 2px #bbb solid;
+}
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+<div class="example-Parent">
+    <div class="example-element Constrain 
+                Constrain--5by4 Constrain--contain"></div>
+</div>
+<div class="example-Parent">
+    <div class="example-element Constrain 
+                Constrain--16by9 Constrain--contain"></div>
+</div>
+
+<div class="example-Parent">
+    --left
+    <div class="example-element Constrain 
+                Constrain--16by9 Constrain--contain Constrain--left"></div>
+</div>
+<div class="example-Parent">
+    --right
+    <div class="example-element Constrain 
+                Constrain--16by9 Constrain--contain Constrain--right"></div>
+</div>
+
+</div>

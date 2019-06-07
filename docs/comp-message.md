@@ -28,6 +28,10 @@ title: Message
 
 <!--HTML-->
 ```html
+<div class="Message">
+    <b>Hello,</b> this is a message.
+</div>
+<br>
 <div class="Message Message--error">
     <b>Error:</b> task has failed to succeed.
 </div>
@@ -37,7 +41,10 @@ title: Message
 </div>
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
-
+<div class="Message">
+    <b>Hello,</b> this is a message.
+</div>
+<br>
 <div class="Message Message--error">
     <b>Error:</b> task has failed to succeed.
 </div>

@@ -151,7 +151,7 @@ Any `select` that is a child of a `.SelectInput` element will be styled.
 
 <!--HTML-->
 ```html
-<div class="SelectInput is-invalid">
+<div class="SelectInput">
     <select>
         <option value="">--Select OS--</option>
         <option value="win"> Windows </option>
@@ -160,14 +160,54 @@ Any `select` that is a child of a `.SelectInput` element will be styled.
         <option value="tst"> Smart Toaster </option>
     </select>
 </div>
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
+
 <div class="SelectInput is-invalid">
     <select>
         <option value="">--Select OS--</option>
         <option value="win"> Windows </option>
         <option value="mac"> Mac </option>
         <option value="lin"> Linux </option>
+        <option value="tst" selected> Smart Toaster </option>
+    </select>
+</div>
+
+<div class="SelectInput is-valid">
+    <select>
+        <option value="">--Select OS--</option>
+        <option value="win"> Windows </option>
+        <option value="mac"> Mac </option>
+        <option value="lin" selected> Linux </option>
+        <option value="tst"> Smart Toaster </option>
+    </select>
+</div>
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+<div class="SelectInput">
+    <select>
+        <option value="">--Select OS--</option>
+        <option value="win"> Windows </option>
+        <option value="mac"> Mac </option>
+        <option value="lin"> Linux </option>
+        <option value="tst"> Smart Toaster </option>
+    </select>
+</div>
+
+<div class="SelectInput is-invalid">
+    <select>
+        <option value="">--Select OS--</option>
+        <option value="win"> Windows </option>
+        <option value="mac"> Mac </option>
+        <option value="lin"> Linux </option>
+        <option value="tst" selected> Smart Toaster </option>
+    </select>
+</div>
+
+<div class="SelectInput is-valid">
+    <select>
+        <option value="">--Select OS--</option>
+        <option value="win"> Windows </option>
+        <option value="mac"> Mac </option>
+        <option value="lin" selected> Linux </option>
         <option value="tst"> Smart Toaster </option>
     </select>
 </div>
@@ -204,13 +244,13 @@ Provides custom styling for text input fields and textareas.
 
 <!--HTML-->
 ```html
-<input type="text" name="one" class="TextInput">
-<input type="text" name="two" class="TextInput is-valid">
-<input type="text" name="thr" class="TextInput is-invalid">
+<input type="text" class="TextInput" name="one">
+<input type="text" class="TextInput is-invalid" name="two" value="index starts at 1">
+<input type="text" class="TextInput is-valid" name="thr" value="index starts at 0">
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
-<input type="text" name="one" class="TextInput">
-<input type="text" name="two" class="TextInput is-valid">
-<input type="text" name="thr" class="TextInput is-invalid">
+<input type="text" class="TextInput" name="one">
+<input type="text" class="TextInput is-invalid" name="two" value="index starts at 1">
+<input type="text" class="TextInput is-valid" name="thr" value="index starts at 0">
 </div>
 

@@ -1,7 +1,7 @@
 {
   "docs": {
     "Cacao": ["main"],
-    "Components": ["arrange", "breadcrumb", "button", "constrain", "container", "content", "flexembed", "footer", "form", "grid", "header", "image", "list", "media", "message", "navigation", "pagination", "triangle"],
+    "Components": ["arrange", "breadcrumb", "button", "constrain", "container", "content", "flexembed", "footer", "form", "grid", "header", "image-component", "list", "media", "message", "navigation", "pagination", "triangle"],
     "Utilities": ["align", "background", "display", "flex", "image", "layout", "link", "margin", "padding", "position", "pull", "push", "radius", "size", "typography"]
   },
   "docs-other": {

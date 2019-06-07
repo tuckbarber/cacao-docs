@@ -6,8 +6,6 @@ title: Button
 Provides a basic button template that includes a very basic default theme that
 is ready to be extended.
 
-Basic visual tests are in [`test/modules/button.html`](http://aptuitiv.github.io/cacao/test/modules/button.html).
-
 
 ## Available classes
 
@@ -43,17 +41,27 @@ Basic visual tests are in [`test/modules/button.html`](http://aptuitiv.github.io
 
 ## Usage
 
+Buttons can have multiple lines of text and will wrap text. Buttons are baseline-aligned.
+
 <div class="code-sample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
-<a class="Button" href="{{url}}">Sign up</a>
-
+<a class="Button">Sign up</a>
 <button class="Button is-disabled" type="button" disabled>Close</button>
+<br>
+<br>
+<a class="Button" style="width:150px;">Button with more text</a>
+<a class="Button" style="width:150px;">Button</a>
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 <a class="Button">Sign up</a>
 <button class="Button is-disabled" type="button" disabled>Close</button>
+<br>
+<br>
+<a class="Button" style="width:150px;">Button with more text</a>
+<a class="Button" style="width:150px;">Button</a>
+
 </div>
 
 ### Theming / extending

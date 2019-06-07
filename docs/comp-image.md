@@ -99,12 +99,19 @@ The ImageCaption class works best when paired with the ImageWrapper classes.
 <!--HTML-->
 ```html
 <div class="example-Parent">
+  <div class="ImageWrapper ImageWrapper--left">
+        <!-- Photo by Hannah Busing on Unsplash -->
+        <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
+                  &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
+             alt="Image" width="150" height="150">
+        <div class="ImageCaption">--left caption</div>
+   </div>
     <div class="ImageWrapper ImageWrapper--right">
         <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
                   &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
              alt="Image" width="150" height="150">
-        <div class="ImageCaption">Image Caption</div>
+        <div class="ImageCaption">--right caption</div>
     </div>
     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
     laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
@@ -113,23 +120,50 @@ The ImageCaption class works best when paired with the ImageWrapper classes.
     voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
     amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
     labore et dolore magnam aliquam quaerat voluptatem. 
+  <div class="ImageWrapper ImageWrapper--center">
+        <!-- Photo by Hannah Busing on Unsplash -->
+        <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
+                  &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
+             alt="Image" width="150" height="150">
+        <div class="ImageCaption">--center caption</div>
+  </div>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+    amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
+    labore et dolore magnam aliquam quaerat voluptatem. 
 </div>
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->
-
 <div class="example-Parent">
-    <div class="ImageWrapper ImageWrapper--right">
+  <div class="ImageWrapper ImageWrapper--left">
+        <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
                   &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
-             alt="Image" width="120" height="120">
-        <div class="ImageCaption">Image Caption</div>
+             alt="Image" width="150" height="150">
+        <div class="ImageCaption">--left caption</div>
+   </div>
+    <div class="ImageWrapper ImageWrapper--right">
+        <!-- Photo by Hannah Busing on Unsplash -->
+        <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
+                  &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
+             alt="Image" width="150" height="150">
+        <div class="ImageCaption">--right caption</div>
     </div>
     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
     laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
     architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
     sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
     voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+    amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
+    labore et dolore magnam aliquam quaerat voluptatem. 
+  <div class="ImageWrapper ImageWrapper--center">
+        <!-- Photo by Hannah Busing on Unsplash -->
+        <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
+                  &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
+             alt="Image" width="150" height="150">
+        <div class="ImageCaption">--center caption</div>
+  </div>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
     amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
     labore et dolore magnam aliquam quaerat voluptatem. 
 </div>

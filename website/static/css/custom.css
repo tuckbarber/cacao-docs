@@ -39,6 +39,7 @@
 
 .code-sample:before{
     content: "Code Sample:";
+    display: block;
     font-weight: bold;
 }
 

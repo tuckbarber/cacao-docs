@@ -3,4 +3,4 @@ id: header
 title: Header
 ---
 
-To be styled.
+A component for a header. To be customized and styled.
