@@ -37,5 +37,5 @@
 <url> <loc>https://your-docusaurus-test-site.com/cacao-docs/docs/push</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/cacao-docs/docs/push" /> </url>
 <url> <loc>https://your-docusaurus-test-site.com/cacao-docs/docs/radius</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/cacao-docs/docs/radius" /> </url>
 <url> <loc>https://your-docusaurus-test-site.com/cacao-docs/docs/size</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/cacao-docs/docs/size" /> </url>
-<url> <loc>https://your-docusaurus-test-site.com/cacao-docs/docs/util-typography</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/cacao-docs/docs/util-typography" /> </url>
+<url> <loc>https://your-docusaurus-test-site.com/cacao-docs/docs/typography</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://your-docusaurus-test-site.com/cacao-docs/docs/typography" /> </url>
 </urlset>
