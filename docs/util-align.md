@@ -20,7 +20,7 @@
 }
 </style>
 
-Utilities to adjust vertical alignment. The affected element must also have an
+To adjust vertical alignment. The affected element must also have an
 appropriate `display` value.
 
 ## Available classes

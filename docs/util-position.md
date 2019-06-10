@@ -2,3 +2,12 @@
    id: position
    title: Position
 ---
+
+Set the position style of an element.
+
+## Available classes
+
+* `u-posRelative`: Sets position type to relative.
+* `u-posStatic`: Sets position type to static.
+* `u-posAbsolute`: Sets position type to absolute.
+* `u-posFixed`: Sets position type to fixed.

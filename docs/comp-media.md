@@ -136,7 +136,7 @@ applied when `<html>` has a class of `no-flexbox` or `no-flexwrap`.
   </div>
 </div>
 
-
+</div>
 
 ### Subject aligning
 The `Media-subject` element can be aligned relative to the rest of the content with
