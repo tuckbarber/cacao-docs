@@ -290,99 +290,35 @@ addition of the <code>is-active</code> class requires additional JavaScript code
 <h2><a class="anchor" aria-hidden="true" id="complete-example"></a><a href="#complete-example" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Complete Example</h2>
 <div class="code-sample">
 <style>
-#faux-display {
+#nav-display {
     background-color: #fff;
     border: 3px #aaa dashed;
     margin: 40px auto;
-    min-height: 400px;
+    height: 400px;
+    overflow: hidden;
     transition: width 0.5s;
     width: 80%;
 }
-#faux-display:after {
-    color: #ccc;
-    content: "Content";
-    display: block;
-    font-size:3em;
-    margin-top: 2em;
-    text-align: center;
-}
-#faux-display .NavBar{
-    background-color: #3264A8;
-}
-#faux-display .MainNav-link{
-    color: #FFF;
-}
-#faux-display .MainNav-item:hover{
-    background-color: #0F3764;
-}
-#faux-display .Dropdown-menu{
-    background-color: #5378A2;
-}
-#faux-display.mobile-view {
-    width: 40%;
+#nav-display.mobile-view {
+    width: 30%;
     transition: width 0.5s;
 }
-#faux-display.mobile-view .SmScBtn {
-    display: block;
-    width: 100%;
-}
-#faux-display.mobile-view .MainNav {
-    display: none;
-}
-#faux-display.mobile-view .MainNav-item {
-    display: block;
-}
-#faux-display.mobile-view .SmScBtn.is-active ~ .MainNav{
-    display: block;
+#nav-display iframe {
+    height: 800px;
+    max-width: 200%;
+    width: 200%;
+    -ms-zoom: 0.5;
+    -moz-transform: scale(0.5);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.5);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
 }
 </style>
-<script type="text/javascript">function switchDisplay(){fdisp=document.getElementById("faux-display"),fdisp.classList.contains("mobile-view")?fdisp.classList.remove("mobile-view"):fdisp.classList.add("mobile-view")}</script>
+<script type="text/javascript">function switchDisplay(){fdisp=document.getElementById("nav-display"),fdisp.classList.contains("mobile-view")?fdisp.classList.remove("mobile-view"):fdisp.classList.add("mobile-view")}</script>
 <button class="Button" onclick="switchDisplay()"> Switch Display Type </button>
-<div id="faux-display">
-    <div class="NavBar">
-        <button class="SmScBtn" style="background-color: #3264a8;" 
-                onClick="this.classList.contains('is-active') ? this.classList.remove('is-active') : this.classList.add('is-active')">
-            <span class="SmScBtn-icon"></span>Menu
-        </button>
-        <ul class="MainNav">
-          <li class="MainNav-item Dropdown is-currentParent">
-              <a class="MainNav-link" href="#">About</a>
-              <ul class="Dropdown-menu">
-                  <li class="Dropdown-item Dropdown-item--smallScreen">
-                      <a href="#" class="Dropdown-link">About</a>
-                  </li>
-                  <li class="Dropdown-item is-first">
-                      <a href="#" class="is-first Dropdown-link">Origin Story</a>
-                  </li>
-                  <li class="Dropdown-item">
-                      <a href="#" class="Dropdown-link">Our Philosophy</a>
-                  </li>
-              </ul>
-            </li>
-          <li class="MainNav-item Dropdown is-currentParent">
-            <a class="MainNav-link" href="#">Services</a>
-            <ul class="Dropdown-menu">
-                <li class="Dropdown-item Dropdown-item--smallScreen">
-                    <a href="#" class="Dropdown-link">Services</a>
-                </li>
-                <li class="Dropdown-item is-first">
-                    <a href="#" class="is-first Dropdown-link">Doing Something</a>
-                </li>
-                <li class="Dropdown-item">
-                    <a href="#" class="Dropdown-link">Another Thing</a>
-                </li>
-                <li class="Dropdown-item is-last">
-                    <a href="#" class="is-last Dropdown-link">And Also</a>
-                </li>
-            </ul>
-          </li>
-          <li class="MainNav-item">
-            <a class="MainNav-link" href="#">Gallery</a>
-          </li>
-          <li class="MainNav-item">
-            <a class="MainNav-link" href="#">Contact</a>
-          </li>
-        </ul>
-    </div>
+<div id="nav-display">
+    <iframe src="assets/example-nav.html"></iframe>
 </div>
 </div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/cacao-docs/docs/message"><span class="arrow-prev">← </span><span>Message</span></a><a class="docs-next button" href="/cacao-docs/docs/pagination"><span>Pagination</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#dropdown">Dropdown</a><ul class="toc-headings"><li><a href="#available-classes">Available classes</a></li><li><a href="#configurable-variables">Configurable variables</a></li><li><a href="#usage">Usage</a></li></ul></li><li><a href="#footernav">FooterNav</a><ul class="toc-headings"><li><a href="#available-classes-1">Available classes</a></li></ul></li><li><a href="#mainnav">MainNav</a><ul class="toc-headings"><li><a href="#available-classes-2">Available classes</a></li><li><a href="#configurable-variables-1">Configurable variables</a></li><li><a href="#usage-1">Usage</a></li></ul></li><li><a href="#navbar">NavBar</a><ul class="toc-headings"><li><a href="#available-classes-3">Available Classes</a></li></ul></li><li><a href="#sidebarnav">SidebarNav</a><ul class="toc-headings"><li><a href="#available-classes-4">Available classes</a></li></ul></li><li><a href="#smscbtn">SmScBtn</a><ul class="toc-headings"><li><a href="#available-classes-5">Available classes</a></li><li><a href="#usage-2">Usage</a></li></ul></li><li><a href="#complete-example">Complete Example</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cacao-docs/" class="nav-home"><img src="/cacao-docs/img/cacao-icon-white.png" alt="Cacao Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/cacao-docs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/cacao-docs/docs/en/doc2.html">Guides (or other categories)</a><a href="/cacao-docs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/cacao-docs/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/cacao-docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Aptuitiv</section></footer></div></body></html>

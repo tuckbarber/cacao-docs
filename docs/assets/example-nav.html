@@ -1,0 +1,85 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="main.css">  
+  </head>
+  <body>
+    <style>
+
+    #faux-display {
+        background-color: #fff;
+    }
+    #faux-display:after {
+        color: #ccc;
+        content: "Content";
+        display: block;
+        font-size: 5em;
+        margin-top: 2em;
+        text-align: center;
+    }
+    #faux-display .NavBar{
+        background-color: #3264A8;
+    }
+    #faux-display .MainNav-link{
+        color: #FFF;
+    }
+    #faux-display .MainNav-item:hover{
+        background-color: #0F3764;
+    }
+    #faux-display .Dropdown-menu{
+        background-color: #5378A2;
+    }
+    #faux-display .SmScBtn.is-active ~ .MainNav{
+      display: block;
+    }
+
+    </style>
+
+    <div id="faux-display">
+        <div class="NavBar">
+            <button class="SmScBtn" style="background-color: #3264a8;" 
+                    onClick="this.classList.contains('is-active') ? this.classList.remove('is-active') : this.classList.add('is-active')">
+                <span class="SmScBtn-icon"></span>Menu
+            </button>
+            <ul class="MainNav">
+              <li class="MainNav-item Dropdown is-currentParent">
+                  <a class="MainNav-link" href="#">About</a>
+                  <ul class="Dropdown-menu">
+                      <li class="Dropdown-item Dropdown-item--smallScreen">
+                          <a href="#" class="Dropdown-link">About</a>
+                      </li>
+                      <li class="Dropdown-item is-first">
+                          <a href="#" class="is-first Dropdown-link">Origin Story</a>
+                      </li>
+                      <li class="Dropdown-item">
+                          <a href="#" class="Dropdown-link">Our Philosophy</a>
+                      </li>
+                  </ul>
+                </li>
+              <li class="MainNav-item Dropdown is-currentParent">
+                <a class="MainNav-link" href="#">Services</a>
+                <ul class="Dropdown-menu">
+                    <li class="Dropdown-item Dropdown-item--smallScreen">
+                        <a href="#" class="Dropdown-link">Services</a>
+                    </li>
+                    <li class="Dropdown-item is-first">
+                        <a href="#" class="is-first Dropdown-link">Doing Something</a>
+                    </li>
+                    <li class="Dropdown-item">
+                        <a href="#" class="Dropdown-link">Another Thing</a>
+                    </li>
+                    <li class="Dropdown-item is-last">
+                        <a href="#" class="is-last Dropdown-link">And Also</a>
+                    </li>
+                </ul>
+              </li>
+              <li class="MainNav-item">
+                <a class="MainNav-link" href="#">Gallery</a>
+              </li>
+              <li class="MainNav-item">
+                <a class="MainNav-link" href="#">Contact</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>
