@@ -28,11 +28,3 @@ appropriate `display` value.
 * `u-alignBottom`: Align element toward the bottom
 * `u-alignMiddle`: Align element toward the middle.
 * `u-alignTop`: Align element toward the top.
-
-<div class="example-parent">
-    <div class="example-element"></div>
-    <div class="example-element u-alignBaseline"></div>
-    <div class="example-element u-alignBottom"></div>
-    <div class="example-element u-alignMiddle"></div>
-    <div class="example-element u-alignTop"></div>
-</div>

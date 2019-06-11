@@ -276,105 +276,40 @@ addition of the `is-active` class requires additional JavaScript code.
 
 ## Complete Example
 <div class="code-sample">
-
 <style>
-#faux-display {
+#nav-display {
     background-color: #fff;
     border: 3px #aaa dashed;
     margin: 40px auto;
-    min-height: 400px;
+    height: 400px;
+    overflow: hidden;
     transition: width 0.5s;
     width: 80%;
 }
-#faux-display:after {
-    color: #ccc;
-    content: "Content";
-    display: block;
-    font-size:3em;
-    margin-top: 2em;
-    text-align: center;
-}
-#faux-display .NavBar{
-    background-color: #3264A8;
-}
-#faux-display .MainNav-link{
-    color: #FFF;
-}
-#faux-display .MainNav-item:hover{
-    background-color: #0F3764;
-}
-#faux-display .Dropdown-menu{
-    background-color: #5378A2;
-}
-#faux-display.mobile-view {
-    width: 40%;
+#nav-display.mobile-view {
+    width: 30%;
     transition: width 0.5s;
 }
-#faux-display.mobile-view .SmScBtn {
-    display: block;
-    width: 100%;
+#nav-display iframe {
+    height: 800px;
+    max-width: 200%;
+    width: 200%;
+    -ms-zoom: 0.5;
+    -moz-transform: scale(0.5);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.5);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
 }
-#faux-display.mobile-view .MainNav {
-    display: none;
-}
-#faux-display.mobile-view .MainNav-item {
-    display: block;
-}
-#faux-display.mobile-view .SmScBtn.is-active ~ .MainNav{
-    display: block;
-}
-
 </style>
 
-<script type="text/javascript">function switchDisplay(){fdisp=document.getElementById("faux-display"),fdisp.classList.contains("mobile-view")?fdisp.classList.remove("mobile-view"):fdisp.classList.add("mobile-view")}</script>
+<script type="text/javascript">function switchDisplay(){fdisp=document.getElementById("nav-display"),fdisp.classList.contains("mobile-view")?fdisp.classList.remove("mobile-view"):fdisp.classList.add("mobile-view")}</script>
 
 <button class="Button" onclick="switchDisplay()"> Switch Display Type </button>
 
-<div id="faux-display">
-    <div class="NavBar">
-        <button class="SmScBtn" style="background-color: #3264a8;" 
-                onClick="this.classList.contains('is-active') ? this.classList.remove('is-active') : this.classList.add('is-active')">
-            <span class="SmScBtn-icon"></span>Menu
-        </button>
-        <ul class="MainNav">
-          <li class="MainNav-item Dropdown is-currentParent">
-              <a class="MainNav-link" href="#">About</a>
-              <ul class="Dropdown-menu">
-                  <li class="Dropdown-item Dropdown-item--smallScreen">
-                      <a href="#" class="Dropdown-link">About</a>
-                  </li>
-                  <li class="Dropdown-item is-first">
-                      <a href="#" class="is-first Dropdown-link">Origin Story</a>
-                  </li>
-                  <li class="Dropdown-item">
-                      <a href="#" class="Dropdown-link">Our Philosophy</a>
-                  </li>
-              </ul>
-            </li>
-          <li class="MainNav-item Dropdown is-currentParent">
-            <a class="MainNav-link" href="#">Services</a>
-            <ul class="Dropdown-menu">
-                <li class="Dropdown-item Dropdown-item--smallScreen">
-                    <a href="#" class="Dropdown-link">Services</a>
-                </li>
-                <li class="Dropdown-item is-first">
-                    <a href="#" class="is-first Dropdown-link">Doing Something</a>
-                </li>
-                <li class="Dropdown-item">
-                    <a href="#" class="Dropdown-link">Another Thing</a>
-                </li>
-                <li class="Dropdown-item is-last">
-                    <a href="#" class="is-last Dropdown-link">And Also</a>
-                </li>
-            </ul>
-          </li>
-          <li class="MainNav-item">
-            <a class="MainNav-link" href="#">Gallery</a>
-          </li>
-          <li class="MainNav-item">
-            <a class="MainNav-link" href="#">Contact</a>
-          </li>
-        </ul>
-    </div>
+<div id="nav-display">
+    <iframe src="assets/example-nav.html"></iframe>
 </div>
+
 </div>
