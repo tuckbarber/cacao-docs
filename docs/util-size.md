@@ -3,6 +3,7 @@
    title: Size
 ---
 
+Sizing utilities, for changing how elements take up space, or sizing with percentage ratios.
 
 ## Available classes
 

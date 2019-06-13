@@ -3,8 +3,10 @@
    title: Margin
 ---
 
-Add margin spacing in various sizes. The difference with the padding gutters is that this 
-uses margins instead of padding.
+Add margin spacing in various sizes, with modifiers for large/medium/small screens. The 
+difference with the padding gutters is that this uses margins instead of padding.
+
+
 
 ## Available classes
 
@@ -23,23 +25,23 @@ uses margins instead of padding.
 * `u-margBottom4`: Gives bottom margin of size factor 4.
 * `u-margBottom5`: Gives bottom margin of size factor 5.
 * `u-lg-margBottom0`: Set size of bottom margin to zero.
-* `u-lg-margBottom1`: Gives bottom margin of size factor 1 (large).
-* `u-lg-margBottom2`: Gives bottom margin of size factor 2 (large).
-* `u-lg-margBottom3`: Gives bottom margin of size factor 3 (large).
-* `u-lg-margBottom4`: Gives bottom margin of size factor 4 (large).
-* `u-lg-margBottom5`: Gives bottom margin of size factor 5 (large).
+* `u-lg-margBottom1`: Gives bottom margin of size factor 1 (large displays).
+* `u-lg-margBottom2`: Gives bottom margin of size factor 2 (large displays).
+* `u-lg-margBottom3`: Gives bottom margin of size factor 3 (large displays).
+* `u-lg-margBottom4`: Gives bottom margin of size factor 4 (large displays).
+* `u-lg-margBottom5`: Gives bottom margin of size factor 5 (large displays).
 * `u-md-margBottom0`: Set size of bottom margin to zero.
-* `u-md-margBottom1`: Gives bottom margin of size factor 1 (medium).
-* `u-md-margBottom2`: Gives bottom margin of size factor 2 (medium).
-* `u-md-margBottom3`: Gives bottom margin of size factor 3 (medium).
-* `u-md-margBottom4`: Gives bottom margin of size factor 4 (medium).
-* `u-md-margBottom5`: Gives bottom margin of size factor 5 (medium).
+* `u-md-margBottom1`: Gives bottom margin of size factor 1 (mediu displaysm).
+* `u-md-margBottom2`: Gives bottom margin of size factor 2 (mediu displaysm).
+* `u-md-margBottom3`: Gives bottom margin of size factor 3 (mediu displaysm).
+* `u-md-margBottom4`: Gives bottom margin of size factor 4 (mediu displaysm).
+* `u-md-margBottom5`: Gives bottom margin of size factor 5 (mediu displaysm).
 * `u-sm-margBottom0`: Set size of bottom margin to zero.
-* `u-sm-margBottom1`: Gives bottom margin of size factor 1 (small).
-* `u-sm-margBottom2`: Gives bottom margin of size factor 2 (small).
-* `u-sm-margBottom3`: Gives bottom margin of size factor 3 (small).
-* `u-sm-margBottom4`: Gives bottom margin of size factor 4 (small).
-* `u-sm-margBottom5`: Gives bottom margin of size factor 5 (small).
+* `u-sm-margBottom1`: Gives bottom margin of size factor 1 (small displays).
+* `u-sm-margBottom2`: Gives bottom margin of size factor 2 (small displays).
+* `u-sm-margBottom3`: Gives bottom margin of size factor 3 (small displays).
+* `u-sm-margBottom4`: Gives bottom margin of size factor 4 (small displays).
+* `u-sm-margBottom5`: Gives bottom margin of size factor 5 (small displays).
 
 ### Top margin
 * `u-margTop0`: Set size of top margin to zero.
@@ -49,23 +51,23 @@ uses margins instead of padding.
 * `u-margTop4`: Gives top margin of size factor 4.
 * `u-margTop5`: Gives top margin of size factor 5.
 * `u-lg-margTop0`: Set size of top margin to zero.
-* `u-lg-margTop1`: Gives top margin of size factor 1 (large).
-* `u-lg-margTop2`: Gives top margin of size factor 2 (large).
-* `u-lg-margTop3`: Gives top margin of size factor 3 (large).
-* `u-lg-margTop4`: Gives top margin of size factor 4 (large).
-* `u-lg-margTop5`: Gives top margin of size factor 5 (large).
+* `u-lg-margTop1`: Gives top margin of size factor 1 (large displays).
+* `u-lg-margTop2`: Gives top margin of size factor 2 (large displays).
+* `u-lg-margTop3`: Gives top margin of size factor 3 (large displays).
+* `u-lg-margTop4`: Gives top margin of size factor 4 (large displays).
+* `u-lg-margTop5`: Gives top margin of size factor 5 (large displays).
 * `u-md-margTop0`: Set size of top margin to zero.
-* `u-md-margTop1`: Gives top margin of size factor 1 (medium).
-* `u-md-margTop2`: Gives top margin of size factor 2 (medium).
-* `u-md-margTop3`: Gives top margin of size factor 3 (medium).
-* `u-md-margTop4`: Gives top margin of size factor 4 (medium).
-* `u-md-margTop5`: Gives top margin of size factor 5 (medium).
+* `u-md-margTop1`: Gives top margin of size factor 1 (mediu displaysm).
+* `u-md-margTop2`: Gives top margin of size factor 2 (mediu displaysm).
+* `u-md-margTop3`: Gives top margin of size factor 3 (mediu displaysm).
+* `u-md-margTop4`: Gives top margin of size factor 4 (mediu displaysm).
+* `u-md-margTop5`: Gives top margin of size factor 5 (mediu displaysm).
 * `u-sm-margTop0`: Set size of top margin to zero.
-* `u-sm-margTop1`: Gives top margin of size factor 1 (small).
-* `u-sm-margTop2`: Gives top margin of size factor 2 (small).
-* `u-sm-margTop3`: Gives top margin of size factor 3 (small).
-* `u-sm-margTop4`: Gives top margin of size factor 4 (small).
-* `u-sm-margTop5`: Gives top margin of size factor 5 (small).
+* `u-sm-margTop1`: Gives top margin of size factor 1 (small displays).
+* `u-sm-margTop2`: Gives top margin of size factor 2 (small displays).
+* `u-sm-margTop3`: Gives top margin of size factor 3 (small displays).
+* `u-sm-margTop4`: Gives top margin of size factor 4 (small displays).
+* `u-sm-margTop5`: Gives top margin of size factor 5 (small displays).
 
 ## Configurable variables
 * `--utils-margin-gutter`: The base size for the`u-guttersMarg` utilities.
