@@ -83,7 +83,7 @@ difference with the padding gutters is that this uses margins instead of padding
 <style>
 .example-parent{
     border: 2px #ddd solid;
-    display: block;
+    display: inline-block;
 }
 .example-parent > span{
     border: 1px #555 solid;
@@ -91,8 +91,24 @@ difference with the padding gutters is that this uses margins instead of padding
     vertical-align: bottom;
 </style>
 
-<div class="code-sample">
+<div class="code-sample code-sample--padded">
+    u-guttersMarg
+    <br>   
+    <div class="example-parent">
+        <span class="u-guttersMarg0"> Gutters size 0 </span>
+        <br>
+        <span class="u-guttersMarg1"> Gutters size 1 </span>
+        <br>
+        <span class="u-guttersMarg2"> Gutters size 2 </span>
+        <br>
+        <span class="u-guttersMarg3"> Gutters size 3 </span>
+        <br>
+        <span class="u-guttersMarg4"> Gutters size 4 </span>
+    </div>
+    <br>
+    <br>
     u-margBottom
+    <br>
     <div class="example-parent">
         <span class="u-margBottom0">Margin size 0 </span>
         <span class="u-margBottom1">Margin size 1 </span>

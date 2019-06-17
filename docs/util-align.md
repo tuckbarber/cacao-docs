@@ -46,7 +46,7 @@ appropriate `display` value.
 * `u-alignTop`: Align element toward the top.
 
 
-<div class="code-sample">
+<div class="code-sample code-sample--padded">
     <div class="example-parent">
         <div class="line"></div>
         <div class="example-element example-other">Some inline text</div>

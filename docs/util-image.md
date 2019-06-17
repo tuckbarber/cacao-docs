@@ -12,3 +12,23 @@ is smaller than the image's original width.
 * `u-imgFull`: Make an image scale to the width of its containing element regardless of 
 the image's original width.
 
+<style>
+.example-parent{
+    display: block;
+    border: 2px #bbb solid;
+}
+</style>
+
+<!-- Photo by Taylor Simpson on Unsplash -->
+<div class="code-sample">
+    <br>
+    u-img (container 300px, image 100px)
+    <div class="example-parent" style="width:300px">
+        <img class="u-img" src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80">
+    </div>
+    <br>
+    u-imgFull (container 300px, image 100px)
+    <div class="example-parent" style="width:300px">
+        <img class="u-imgFull" src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80">
+    </div>
+</div>

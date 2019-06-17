@@ -3,7 +3,7 @@
    title: Size
 ---
 
-Sizing utilities, for changing how elements take up space, or sizing with percentage ratios.
+Sizing utilities, for changing how elements take up space, or sizing with percentage.
 
 ## Available classes
 
@@ -149,3 +149,38 @@ Only apply to viewports defined as extra small.
   * `u-xs-size9of10`
   * `u-xs-size11of12`
   * `u-xs-size12of12` / `u-xs-sizeFull`
+  
+  <style>
+ .code-sample > div {
+    margin: 20px auto;
+    border: 1px #444 solid;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+ }
+  </style>
+  
+  <div class="code-sample code-sample---padded">
+    <div class="u-size1of12">u-size1of12</div>
+    <div class="u-size1of6">u-size1of6</div>
+    <div class="u-size1of5">u-size1of5</div>
+    <div class="u-size1of4">u-size1of4</div>
+    <div class="u-size3of10">u-size3of10</div>
+    <div class="u-size1of3">u-size1of3</div>
+    <div class="u-size3of8">u-size3of8</div>
+    <div class="u-size2of5">u-size2of5</div>
+    <div class="u-size5of12">u-size5of12</div>
+    <div class="u-size1of2">u-size1of2</div>
+    <div class="u-size7of12">u-size7of12</div>
+    <div class="u-size3of5">u-size3of5</div>
+    <div class="u-size5of8">u-size5of8</div>
+    <div class="u-size2of3">u-size2of3</div>
+    <div class="u-size7of10">u-size7of10</div>
+    <div class="u-size3of4">u-size3of4</div>
+    <div class="u-size4of5">u-size4of5</div>
+    <div class="u-size5of6">u-size5of6</div>
+    <div class="u-size7of8">u-size7of8</div>
+    <div class="u-size9of10">u-size9of10</div>
+    <div class="u-size11of12">u-size11of12</div>
+    <div class="u-size12of12">u-size12of12</div>
+  </div>

@@ -20,7 +20,7 @@ to standout as an obvious link.
 
 </style>
 
-<div class="code-sample">
+<div class="code-sample code-sample--padded">
 <br>
 This is <a href="#">a link without utilities.</a><br>
 This is <a class="u-linkClean" href="#">a link using `u-linkClean`</a><br>
