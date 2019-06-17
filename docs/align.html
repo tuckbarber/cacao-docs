@@ -58,16 +58,30 @@
 .example-parent {
     border: 2px #bbb solid;
     height: 100px;
-    text-align:center;
+    text-align: center;
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 .example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
     display: inline-block;
-    height: 40px;
-    //padding: 5px 20px;
-    width: 15%;
+    min-width: 15%;
+}
+.example-other{
+    background-color:#355E8C; 
+    height: 60px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.line{
+    border-top: 1px #222 solid;
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 2em;
 }
 </style>
 <p>To adjust vertical alignment. The affected element must also have an
@@ -79,4 +93,13 @@ appropriate <code>display</code> value.</p>
 <li><code>u-alignMiddle</code>: Align element toward the middle.</li>
 <li><code>u-alignTop</code>: Align element toward the top.</li>
 </ul>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/cacao-docs/docs/triangle"><span class="arrow-prev">← </span><span>Triangle</span></a><a class="docs-next button" href="/cacao-docs/docs/background"><span>Background</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#available-classes">Available classes</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cacao-docs/" class="nav-home"><img src="/cacao-docs/img/cacao-icon-white.png" alt="Cacao Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/cacao-docs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/cacao-docs/docs/en/doc2.html">Guides (or other categories)</a><a href="/cacao-docs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/cacao-docs/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/cacao-docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Aptuitiv</section></footer></div></body></html>
+<div class="code-sample code-sample--padded">
+    <div class="example-parent">
+        <div class="line"></div>
+        <div class="example-element example-other">Some inline text</div>
+        <div class="example-element u-alignBaseline">baseline</div>
+        <div class="example-element u-alignBottom">bottom</div>
+        <div class="example-element u-alignMiddle">middle</div>
+        <div class="example-element u-alignTop">top</div>
+    </div>
+</div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/cacao-docs/docs/triangle"><span class="arrow-prev">← </span><span>Triangle</span></a><a class="docs-next button" href="/cacao-docs/docs/background"><span>Background</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#available-classes">Available classes</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cacao-docs/" class="nav-home"><img src="/cacao-docs/img/cacao-icon-white.png" alt="Cacao Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/cacao-docs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/cacao-docs/docs/en/doc2.html">Guides (or other categories)</a><a href="/cacao-docs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/cacao-docs/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/cacao-docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Aptuitiv</section></footer></div></body></html>
