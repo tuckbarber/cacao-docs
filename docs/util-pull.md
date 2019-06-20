@@ -109,5 +109,54 @@ Only apply to viewports defined as small.
 * `u-sm-pull5of6` / `u-sm-pull10of12`
 * `u-sm-pull7of8`
 * `u-sm-pull9of10`
-* `u-sm-pull11of12`
+* `u-sm-pull11of12`  
+  
+## Usage
+  
+<style>
+.example-parent{
+    border: 2px #bbb dashed;
+    display: block;
+    margin-left: 50%;
+    padding: 20px 0;
+    width: 50%;
+}
+.example-parent > div{
+    background-color: #329A5C;
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+</style>
+  
+<div class="code-sample">
+    <div class="example-parent">
+        <div class="u-pull1of12">u-pull1of12</div>
+        <div class="u-pull1of6">u-pull1of6</div>
+        <div class="u-pull1of5">u-pull1of5</div>
+        <div class="u-pull1of4">u-pull1of4</div>
+        <div class="u-pull3of10">u-pull3of10</div>
+        <div class="u-pull1of3">u-pull1of3</div>
+        <div class="u-pull3of8">u-pull3of8</div>
+        <div class="u-pull2of5">u-pull2of5</div>
+        <div class="u-pull5of12">u-pull5of12</div>
+        <div class="u-pull1of2">u-pull1of2</div>
+        <div class="u-pull7of12">u-pull7of12</div>
+        <div class="u-pull3of5">u-pull3of5</div>
+        <div class="u-pull5of8">u-pull5of8</div>
+        <div class="u-pull2of3">u-pull2of3</div>
+        <div class="u-pull7of10">u-pull7of10</div>
+        <div class="u-pull3of4">u-pull3of4</div>
+        <div class="u-pull4of5">u-pull4of5</div>
+        <div class="u-pull5of6">u-pull5of6</div>
+        <div class="u-pull7of8">u-pull7of8</div>
+        <div class="u-pull9of10">u-pull9of10</div>
+        <div class="u-pull11of12">u-pull11of12</div>
+    </div>
+
+</div>  
+  
   

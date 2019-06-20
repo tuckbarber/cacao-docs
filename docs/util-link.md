@@ -16,9 +16,7 @@ to standout as an obvious link.
 `u-linkComplexTarget` class.
 * `u-linkComplexTarget`: Section of `u-linkComplexTarget` that shows underline on interaction.
 
-<style>
-
-</style>
+## Usage
 
 <div class="code-sample code-sample--padded">
 <br>

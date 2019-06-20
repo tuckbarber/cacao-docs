@@ -4,7 +4,7 @@ title: Container
 ---
 <style>
 .example-Parent{
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
     margin-bottom: 20px;
     width: 500px;
 }
@@ -75,7 +75,7 @@ Page content container.
     set in container.css     */
   
 .example-Parent{
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
     margin-bottom: 20px;
     width: 500px;
 }

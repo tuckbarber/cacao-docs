@@ -126,15 +126,19 @@ Add padding spacing in various sizes.
 * `--utils-spaced-md-top`: The base size for the`u-md-spaced` utilities.
 * `--utils-spaced-sm-top`: The base size for the`u-sm-spaced` utilities.
 
+## Usage
+
 <style>
 .example-parent{
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
     display: inline-block;
     box-sizing: border-box;
 }
 .example-parent > span{
-    border: 1px #555 solid;
+    background-color: #329A5C;
+    color: #FFF;
     display: inline-block;
+    padding: 5px;
     vertical-align: bottom;
 </style>
 
@@ -181,5 +185,27 @@ Add padding spacing in various sizes.
     </div>
     <div class="example-parent u-spaced5">
         <span>Spaced 5 </span>
+    </div>
+    <br>
+    <br>
+    u-padBottom
+    <br>
+    <div class="example-parent u-padBottom0">
+        <span>Padding 0 </span>
+    </div>
+    <div class="example-parent u-padBottom1">
+        <span>Padding 1 </span>
+    </div>
+    <div class="example-parent u-padBottom2">
+        <span>Padding 2 </span>
+    </div>
+    <div class="example-parent u-padBottom3">
+        <span>Padding 3 </span>
+    </div>
+    <div class="example-parent u-padBottom4">
+        <span>Padding 4 </span>
+    </div>
+    <div class="example-parent u-padBottom5">
+        <span>Padding 5 </span>
     </div>
 </div>

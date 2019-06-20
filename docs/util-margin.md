@@ -80,15 +80,21 @@ difference with the padding gutters is that this uses margins instead of padding
 * `--utils-margin-md-top`: The base size for the`u-md-margTop` utilities.
 * `--utils-margin-sm-top`: The base size for the`u-sm-margTop` utilities.
 
+## Usage
+
 <style>
 .example-parent{
-    border: 2px #ddd solid;
+    border: 2px #bbb dashed;
     display: inline-block;
 }
 .example-parent > span{
-    border: 1px #555 solid;
+    background-color: #329A5C;
+    color: #FFF;
     display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
     vertical-align: bottom;
+}
 </style>
 
 <div class="code-sample code-sample--padded">

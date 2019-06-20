@@ -105,3 +105,50 @@ Adjusts each of the font scales' size and line height.
 * `--utils-typography-lineHeight-8`
 * `--utils-typography-lineHeight-9`
 * `--utils-typography-lineHeight-10`
+
+## Usage
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,700,800,900' rel='stylesheet' type='text/css'>
+<style>
+.example-parent{
+    margin: 20px 10px;
+    border-left: 2px #000 solid;
+    font-family: 'Open Sans';
+    padding-left: 10px;
+}
+.example-parent > span {
+    display: block;
+}
+</style>
+<div class="code-sample">
+    <br>
+    u-weight
+    <div class="example-parent" style="font-size: 2em;">
+        <span class="u-weightLightest">u-weightLightest</span>
+        <span class="u-weightLighter">u-weightLighter</span>
+        <span class="u-weightLight">u-weightLight</span>
+        <span class="u-weightNormal">u-weightNormal</span>
+        <span class="u-weightBold">u-weightBold</span>
+        <span class="u-weightBolder">u-weightBolder</span>
+        <span class="u-weightBoldest">u-weightBoldest</span>
+    </div>
+    <br>
+    u-fontSize
+    <div class="example-parent">
+        <span class="u-fontSize1"> u-fontSize1 </span>
+        <span class="u-fontSize2"> u-fontSize2 </span>
+        <span class="u-fontSize3"> u-fontSize3 </span>
+        <span class="u-fontSize4"> u-fontSize4 </span>
+        <span class="u-fontSize5"> u-fontSize5 </span>
+        <span class="u-fontSize6"> u-fontSize6 </span>
+        <span class="u-fontSize7"> u-fontSize7 </span>
+        <span class="u-fontSize8"> u-fontSize8 </span>
+        <span class="u-fontSize9"> u-fontSize9 </span>
+        <span class="u-fontSize10"> u-fontSize10 </span>
+        <span class="u-fontSizeH1"> u-fontSizeH1 </span>
+        <span class="u-fontSizeH2"> u-fontSizeH2 </span>
+        <span class="u-fontSizeH3"> u-fontSizeH3 </span>
+        <span class="u-fontSizeH4"> u-fontSizeH4 </span>
+        <span class="u-fontSizeH5"> u-fontSizeH5 </span>
+    </div>
+</div>

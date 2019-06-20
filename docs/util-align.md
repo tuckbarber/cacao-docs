@@ -9,28 +9,33 @@
     height: 100px;
     text-align: center;
     position: relative;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1.5em;
 }
 .example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
-    display: inline-block;
+    display: inline;
+    font-size: 0.5em;
     min-width: 15%;
+    padding: 0.5em;
 }
 .example-other{
-    background-color:#355E8C; 
+    background-color:#5378A2;
+    border-radius: 5px;
+    color: #FFF; 
+    display: inline-block;
     height: 60px;
-    padding: 0.5em;
     margin: 0.5em;
+    padding: 0.2em;
 }
 .line{
-    border-top: 1px #222 solid;
+    border-top: 1px #444 dashed;
     width: 100%;
     position: absolute;
     display: block;
-    top: 2em;
+    top: 1.8em;
 }
 
 
@@ -45,11 +50,12 @@ appropriate `display` value.
 * `u-alignMiddle`: Align element toward the middle.
 * `u-alignTop`: Align element toward the top.
 
+## Usage
 
 <div class="code-sample code-sample--padded">
     <div class="example-parent">
         <div class="line"></div>
-        <div class="example-element example-other">Some inline text</div>
+        <div class="example-other">Parent-sized font</div>
         <div class="example-element u-alignBaseline">baseline</div>
         <div class="example-element u-alignBottom">bottom</div>
         <div class="example-element u-alignMiddle">middle</div>

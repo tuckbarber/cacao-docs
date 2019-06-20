@@ -11,7 +11,7 @@ title: Constrain
 }
 .example-element{
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
 }
 </style>
 
@@ -109,7 +109,7 @@ either by applying a custom class or using inline styles.
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
                           ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
                           &fit=crop&w=400&q=80);
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
@@ -211,7 +211,7 @@ the entire background image is visible.
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
                           ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
                           &fit=crop&w=400&q=80);
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->

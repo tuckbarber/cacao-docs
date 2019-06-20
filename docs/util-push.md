@@ -110,3 +110,51 @@ Only apply to viewports defined as small.
 * `u-sm-push7of8`
 * `u-sm-push9of10`
 * `u-sm-push11of12`
+
+
+## Usage
+
+<style>
+.example-parent{
+    border: 2px #bbb dashed;
+    display: block;
+    padding: 20px 0;
+    width: 50%;
+}
+.example-parent > div{
+    background-color: #329A5C;
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+</style>
+  
+<div class="code-sample">
+    <div class="example-parent">
+        <div class="u-push1of12">u-push1of12</div>
+        <div class="u-push1of6">u-push1of6</div>
+        <div class="u-push1of5">u-push1of5</div>
+        <div class="u-push1of4">u-push1of4</div>
+        <div class="u-push3of10">u-push3of10</div>
+        <div class="u-push1of3">u-push1of3</div>
+        <div class="u-push3of8">u-push3of8</div>
+        <div class="u-push2of5">u-push2of5</div>
+        <div class="u-push5of12">u-push5of12</div>
+        <div class="u-push1of2">u-push1of2</div>
+        <div class="u-push7of12">u-push7of12</div>
+        <div class="u-push3of5">u-push3of5</div>
+        <div class="u-push5of8">u-push5of8</div>
+        <div class="u-push2of3">u-push2of3</div>
+        <div class="u-push7of10">u-push7of10</div>
+        <div class="u-push3of4">u-push3of4</div>
+        <div class="u-push4of5">u-push4of5</div>
+        <div class="u-push5of6">u-push5of6</div>
+        <div class="u-push7of8">u-push7of8</div>
+        <div class="u-push9of10">u-push9of10</div>
+        <div class="u-push11of12">u-push11of12</div>
+    </div>
+
+</div>  

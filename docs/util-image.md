@@ -12,10 +12,15 @@ is smaller than the image's original width.
 * `u-imgFull`: Make an image scale to the width of its containing element regardless of 
 the image's original width.
 
+## Usage
+
 <style>
+.code-sample{
+    padding: 0 10% 20px;
+}
 .example-parent{
     display: block;
-    border: 2px #bbb solid;
+    border: 2px #bbb dashed;
 }
 </style>
 
