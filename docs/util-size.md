@@ -43,7 +43,7 @@ Distributes space based on the initial width and height of the element
   
 ### Large screen
 
-Only apply to viewports defined as large.
+Only applies to viewports defined as large or smaller.
 
 * `u-lg-size1of12` / `u-lg-size1of10` / `u-lg-size1of8`
 * `u-lg-size1of6` / `u-lg-size2of12`
@@ -70,7 +70,7 @@ Only apply to viewports defined as large.
   
 ### Medium screen
 
-Only apply to viewports defined as medium.
+Only applies to viewports defined as medium or smaller.
 
 * `u-md-size1of12` / `u-md-size1of10` / `u-md-size1of8`
 * `u-md-size1of6` / `u-md-size2of12`
@@ -97,7 +97,7 @@ Only apply to viewports defined as medium.
   
 ### Small screen
 
-Only apply to viewports defined as small.
+Only applies to viewports defined as small or smaller.
 
 * `u-sm-size1of12` / `u-sm-size1of10` / `u-sm-size1of8`
 * `u-sm-size1of6` / `u-sm-size2of12`
@@ -125,7 +125,7 @@ Only apply to viewports defined as small.
   
 ### Extra small screen
 
-Only apply to viewports defined as extra small.
+Only applies to viewports defined as extra small.
 
   * `u-xs-size1of12` / `u-xs-size1of10` / `u-xs-size1of8`
   * `u-xs-size1of6` / `u-xs-size2of12`

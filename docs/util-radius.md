@@ -20,7 +20,7 @@ For changing how round the corners of an element are with the border radius.
 .example-element {
     background-color: #329A5C;
     color: #FFF;
-    padding: 10px 20px;
+    padding: 30px 20px;
     width: 100%;
     display: block;
     text-align: center;

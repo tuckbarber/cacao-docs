@@ -31,7 +31,7 @@ For shifting an element to the right an amount relative to its parent.
  
 ### Large screen
 
-Only apply to viewports defined as large.
+Only applies to viewports defined as large or smaller.
 
 * `u-lg-pushNone`
 * `u-lg-push1of12` / `u-lg-push1of10` / `u-lg-push1of8`
@@ -58,7 +58,7 @@ Only apply to viewports defined as large.
   
 ### Medium screen
 
-Only apply to viewports defined as medium.
+Only applies to viewports defined as medium or smaller.
 
 * `u-md-push[ratio]` 
   * `u-md-pushNone`
@@ -86,7 +86,7 @@ Only apply to viewports defined as medium.
   
 ### Small screen
 
-Only apply to viewports defined as small.
+Only applies to viewports defined as small or smaller.
 
 * `u-sm-pushNone`
 * `u-sm-push1of12` / `u-sm-push1of10` / `u-sm-push1of8`
@@ -134,6 +134,7 @@ Only apply to viewports defined as small.
   
 <div class="code-sample">
     <div class="example-parent">
+        <div>No Utility</div>
         <div class="u-push1of12">u-push1of12</div>
         <div class="u-push1of6">u-push1of6</div>
         <div class="u-push1of5">u-push1of5</div>

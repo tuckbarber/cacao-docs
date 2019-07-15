@@ -1,5 +1,5 @@
 ---
-   id: typography 
+   id: util-typography 
    title: Typography
 ---
 
@@ -58,7 +58,7 @@
 
 ### Large Typography
 
-Only apply to viewports defined as large. 
+Only applies to viewports defined as large or smaller. 
 
 *  `u-lg-textCenter`: Center align text.
 *  `u-lg-textLeft`: Left align text.
@@ -66,7 +66,7 @@ Only apply to viewports defined as large.
 
 ### Medium typography
 
-Only apply to viewports defined as medium. 
+Only applies to viewports defined as medium or smaller. 
 
 *  `u-md-textCenter`: Center align text.
 *  `u-md-textLeft`: Left align text.
@@ -74,7 +74,7 @@ Only apply to viewports defined as medium.
 
 ### Small typography
 
-Only apply to viewports defined as small. 
+Only applies to viewports defined as small or smaller. 
 
 *  `u-sm-textCenter`: Center align text.
 *  `u-sm-textLeft`: Left align text.
