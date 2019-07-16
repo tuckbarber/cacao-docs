@@ -3,6 +3,8 @@
    title: Code
 ---
 
+Base styles for code blocks and preformmated text.
+
 ## Affected Type Selectors
 
 * `code, kbd, pre, samp`: Sets custom styles for inline and block code elements.

@@ -3,7 +3,7 @@
    title: Base
 ---
 
-
+Modifies general type selectors for compatibility, best practices, and workarounds.
 
 ## Affected Type Selectors
 
@@ -17,7 +17,7 @@
  * `[tabindex='-1]`: Suppresses focus outline on non-focusable items.
  * `a, area, button, [role='button'], input, label, select, summary, textarea`: Avoid 300ms click delay on devices that support the 'touch-action' CSS property.
  * `button` : Work around a Firefox/IE bug where the transparent `button` background results in a loss of the default `button` focus styles.
- * `hidden`: Always hiden an element with `hidden` HTML attribute.
+ * `hidden`: Always hidden an element with `hidden` HTML attribute.
  
  ## Configurable Variables
  

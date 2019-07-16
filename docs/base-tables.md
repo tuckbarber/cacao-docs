@@ -3,6 +3,8 @@
    title: Tables
 ---
 
+Modifies table type selectors for more uniform and customized styling.
+
 ## Affected Type Selectors
 
 * `table`: 

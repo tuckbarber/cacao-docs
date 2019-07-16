@@ -3,6 +3,8 @@
    title: Forms
 ---
 
+Modifies form type selectors for compatibility, best practices, and workarounds.
+
 ## Affected Type Selectors
 
 * `fieldset`: Sets border, margin, padding to zero.

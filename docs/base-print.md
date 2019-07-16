@@ -3,6 +3,8 @@
    title: Print
 ---
 
+Modifies general type selectors for best outcome when printing the page.
+
 ## Affected Type Selectors
 
 

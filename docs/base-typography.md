@@ -3,6 +3,8 @@
    title: Typography
 ---
 
+Modifies typographic type selectors for compatibility, best practices, and workarounds.
+
 Note: This sets the <html> element's font-size to 62.5%, which
 equals 10px (for default browser font size of 16px).
 This allows rem units to be calculated more intuitively.
@@ -19,8 +21,8 @@ Font size strategy
   was set on the navigation item).
 
 References that influenced this approach:
-https://css-tricks.com/rem-global-em-local/
-http://clagnut.com/blog/2384/
+* https://css-tricks.com/rem-global-em-local/ 
+* http://clagnut.com/blog/2384/
 
 
 ## Affected Type Selectors
