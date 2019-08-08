@@ -3,12 +3,12 @@
    title: Size
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/"></a>
 
 Sizing utilities, for changing how elements take up space, or sizing with percentage.
 
 ## Available classes
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size.css"></a>
 
 * `u-sizeFill` / `u-lg-sizeFill` / `u-md-sizeFill` / `u-sm-sizeFill` / `u-xs-sizeFill`: 
 Make an element fill the remaining space.
@@ -45,7 +45,7 @@ Distributes space based on the initial width and height of the element
   
   
 ### Large screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-lg.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-lg.css"></a>
 
 Only applies to viewports defined as large or smaller.
 
@@ -73,7 +73,7 @@ Only applies to viewports defined as large or smaller.
 * `u-lg-size12of12` / `u-lg-sizeFull`
   
 ### Medium screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-md.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-md.css"></a>
 
 Only applies to viewports defined as medium or smaller.
 
@@ -101,7 +101,7 @@ Only applies to viewports defined as medium or smaller.
 * `u-md-size12of12` / `u-md-sizeFull`
   
 ### Small screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-sm.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-sm.css"></a>
 
 Only applies to viewports defined as small or smaller.
 
@@ -130,7 +130,7 @@ Only applies to viewports defined as small or smaller.
   
   
 ### Extra small screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-sm.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/size/size-sm.css"></a>
 
 Only applies to viewports defined as extra small.
 
@@ -173,7 +173,7 @@ Only applies to viewports defined as extra small.
  }
   </style>
   
-  <div class="code-sample code-sample---padded">
+  <div class="CodeSample CodeSample---padded">
     <div class="element-parent">
         <div class="u-size1of12">1of12</div>
         <div class="u-size1of6">u-size1of6</div>

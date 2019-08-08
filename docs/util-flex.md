@@ -3,7 +3,7 @@
    title: Flex
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/flex/flex.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/flex/flex.css"></a>
 
 Applies to flex container
 

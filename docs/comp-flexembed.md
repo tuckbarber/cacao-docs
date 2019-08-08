@@ -3,14 +3,14 @@ id: flexembed
 title: FlexEmbed
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/flexembed/flexembed.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/flexembed/flexembed.css"></a>
 
 <style>
-.example-Parent{
+.Example-parent{
     width: 60%;
     margin: 10px auto;
  }
-.example-Parent > div{
+.Example-parent > div{
     margin: 20px 0;
     border: 2px #bbb solid;
 }
@@ -45,12 +45,12 @@ Example:
 </div>
 ```
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
 ```html
-<div class="example-Parent">
+<div class="Example-parent">
     No modifier
     <div class="FlexEmbed">
         <div class="FlexEmbed-ratio"></div>
@@ -118,18 +118,18 @@ Example:
 ```
 <!--CSS-->
 ```css
-.example-Parent{
+.Example-parent{
     width: 60%;
     margin: 10px auto;
 }
-.example-Parent > div{
+.Example-parent > div{
     margin: 20px 0;
     border: 2px #bbb solid;
 }
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->
-<div class="example-Parent">
+<div class="Example-parent">
     No modifier
     <div class="FlexEmbed">
         <div class="FlexEmbed-ratio"></div>

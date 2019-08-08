@@ -3,7 +3,7 @@ id: button
 title: Button
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/button/button.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/button/button.css"></a>
 
 Provides a basic button template that includes a very basic default theme that
 is ready to be extended.
@@ -45,7 +45,7 @@ is ready to be extended.
 
 Buttons can have multiple lines of text and will wrap text. Buttons are baseline-aligned.
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
@@ -71,7 +71,7 @@ Buttons can have multiple lines of text and will wrap text. Buttons are baseline
 The CSS is focused on common structural requirements for buttons. You can build
 your application-specific theme styles in your app. For example:
 
-<div class="code-sample">
+<div class="CodeSample">
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--CSS-->

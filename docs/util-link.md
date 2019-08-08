@@ -3,7 +3,7 @@
    title: Link
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/link/link.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/link/link.css"></a>
 
 To be used with links to provide more functionality and alterations.
 
@@ -20,7 +20,7 @@ to standout as an obvious link.
 
 ## Usage
 
-<div class="code-sample code-sample--padded">
+<div class="CodeSample CodeSample--padded">
 <br>
 This is <a href="#">a link without utilities.</a><br>
 This is <a class="u-linkClean" href="#">a link using `u-linkClean`</a><br>

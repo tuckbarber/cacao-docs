@@ -3,15 +3,15 @@ id: container
 title: Container
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/container/container.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/container/container.css"></a>
 
 <style>
-.example-Parent{
+.Example-parent{
     border: 2px #bbb dashed;
     margin-bottom: 20px;
     width: 500px;
 }
-.example-element {
+.Example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
@@ -51,23 +51,23 @@ Page content container.
 ```
 
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
 ```html
-<div class="example-Parent">
-    <p class="example-element Container">
+<div class="Example-parent">
+    <p class="Example-element Container">
         This is some text that is contained within the container.
     </p>
-    <p class="example-element Container Container--fixedWidth">
+    <p class="Example-element Container Container--fixedWidth">
         A fixedWidth container will not shrink to fit viewport.
     </p>
 </div>
-<p class="example-element Container Container--alignLeft">
+<p class="Example-element Container Container--alignLeft">
     This container is aligned left.
 </p>
-<p class="example-element Container Container--alignRight">
+<p class="Example-element Container Container--alignRight">
     And this one is aligned right.
 </p>
 ```
@@ -77,13 +77,13 @@ Page content container.
 /* --Container-width: 600px;
     set in container.css     */
   
-.example-Parent{
+.Example-parent{
     border: 2px #bbb dashed;
     margin-bottom: 20px;
     width: 500px;
 }
 
-.example-element {
+.Example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
@@ -92,18 +92,18 @@ Page content container.
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 
-<div class="example-Parent">
-    <p class="example-element Container">
+<div class="Example-parent">
+    <p class="Example-element Container">
         This is some text that is contained within the container.
     </p>
-    <p class="example-element Container Container--fixedWidth">
+    <p class="Example-element Container Container--fixedWidth">
         A fixedWidth container will not shrink to fit viewport.
     </p>
 </div>
-<p class="example-element Container Container--alignLeft">
+<p class="Example-element Container Container--alignLeft">
     This container is aligned left.
 </p>
-<p class="example-element Container Container--alignRight">
+<p class="Example-element Container Container--alignRight">
     And this one is aligned right.
 </p>
 

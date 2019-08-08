@@ -3,7 +3,7 @@
    title: Typography
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/base/typography.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/base/typography.css"></a>
 
 
 Modifies typographic type selectors for compatibility, best practices, and workarounds.

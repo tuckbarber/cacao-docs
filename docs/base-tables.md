@@ -3,7 +3,7 @@
    title: Tables
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/base/tables.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/base/tables.css"></a>
 
 
 Modifies table type selectors for more uniform and customized styling.

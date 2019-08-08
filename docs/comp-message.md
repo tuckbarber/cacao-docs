@@ -3,7 +3,7 @@ id: message
 title: Message
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/message/message.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/message/message.css"></a>
 
 ### Available classes
 
@@ -25,7 +25,7 @@ title: Message
 * `--Message-error-borderColor`: Message area border color in case of error.
 * `--Message-error-color`: Message area text color in case of error.
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->

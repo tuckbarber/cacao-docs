@@ -3,7 +3,7 @@
    title: Margin
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/"></a>
 
 Add margin spacing in various sizes, with modifiers for large/medium/small screens. The 
 difference with the padding gutters is that this uses margins instead of padding.
@@ -12,7 +12,7 @@ difference with the padding gutters is that this uses margins instead of padding
 ## Available classes
 
 ### Gutters
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/gutters.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/gutters.css"></a>
 * `u-guttersMarg0`: Set size of gutters to zero.
 * `u-guttersMarg1`: Gives gutter of size factor 1.
 * `u-guttersMarg2`: Gives gutter of size factor 2.
@@ -20,7 +20,7 @@ difference with the padding gutters is that this uses margins instead of padding
 * `u-guttersMarg4`: Gives gutter of size factor 4.
 
 ### Bottom margin
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/marg-bottom.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/marg-bottom.css"></a>
 * `u-margBottom0`: Set size of bottom margin to zero.
 * `u-margBottom1`: Gives bottom margin of size factor 1.
 * `u-margBottom2`: Gives bottom margin of size factor 2.
@@ -47,7 +47,7 @@ difference with the padding gutters is that this uses margins instead of padding
 * `u-sm-margBottom5`: Gives bottom margin of size factor 5 (small displays).
 
 ### Top margin
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/marg-top.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/margin/marg-top.css"></a>
 * `u-margTop0`: Set size of top margin to zero.
 * `u-margTop1`: Gives top margin of size factor 1.
 * `u-margTop2`: Gives top margin of size factor 2.
@@ -87,11 +87,11 @@ difference with the padding gutters is that this uses margins instead of padding
 ## Usage
 
 <style>
-.example-parent{
+.Example-parent{
     border: 2px #bbb dashed;
     display: inline-block;
 }
-.example-parent > span{
+.Example-parent > span{
     background-color: #329A5C;
     color: #FFF;
     display: inline-block;
@@ -101,10 +101,10 @@ difference with the padding gutters is that this uses margins instead of padding
 }
 </style>
 
-<div class="code-sample code-sample--padded">
+<div class="CodeSample CodeSample--padded">
     u-guttersMarg
     <br>   
-    <div class="example-parent">
+    <div class="Example-parent">
         <span class="u-guttersMarg0"> Gutters size 0 </span>
         <br>
         <span class="u-guttersMarg1"> Gutters size 1 </span>
@@ -119,7 +119,7 @@ difference with the padding gutters is that this uses margins instead of padding
     <br>
     u-margBottom
     <br>
-    <div class="example-parent">
+    <div class="Example-parent">
         <span class="u-margBottom0">Margin size 0 </span>
         <span class="u-margBottom1">Margin size 1 </span>
         <span class="u-margBottom2">Margin size 2 </span>

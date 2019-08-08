@@ -29,7 +29,7 @@
     margin-bottom: 10px;
 }
 
-.code-sample {
+.CodeSample {
     background-color: #f8f8f8;
     border-bottom: 1px solid #6f6f6f;
     border-top: 1px solid #6f6f6f;
@@ -37,13 +37,13 @@
     margin: 10px 0 60px 0;
 }
 
-.code-sample:before {
+.CodeSample:before {
     content: "Code Sample:";
     display: block;
     font-weight: bold;
 }
 
-.code-sample > .tabs:after {
+.CodeSample > .tabs:after {
     border-bottom: 1px solid #cfcfcf;
     content: "Output:";
     display: block;
@@ -52,21 +52,21 @@
     width: 99%;
 }
 
-.code-sample--padded {
+.CodeSample--padded {
     padding: 20px;
 }
 
-.sourceView-page {
+.SourceView-page {
     position: absolute;
     right: 0;
     top: .7em;
 }
 
-.sourceView-page:hover {
+.SourceView-page:hover {
     filter: brightness(80%);
 }
 
-.sourceView-page::after {
+.SourceView-page::after {
     background-image: url(../img/view-source.svg);
     content:'';
     height: 20px;
@@ -75,17 +75,17 @@
     width: 160px;
 }
 
-.sourceView-section {
+.SourceView-section {
     display: block;
     position: relative;
     width: 100%;
 }
 
-.sourceView-section:hover {
+.SourceView-section:hover {
     filter: brightness(80%);
 }
 
-.sourceView-section::after {
+.SourceView-section::after {
     background-image: url(../img/view-source.svg);
     content:'';
     height: 20px;

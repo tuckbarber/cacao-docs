@@ -3,12 +3,12 @@
    title: Pull
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/"></a>
 
 For shifting an element to the left an amount relative to its parent.
 
 ## Available classes
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull.css"></a>
 
 * `u-pull1of12` / `u-pull1of10` / `u-pull1of8`
 * `u-pull1of6` / `u-pull2of12`
@@ -33,7 +33,7 @@ For shifting an element to the left an amount relative to its parent.
 * `u-pull11of12`
 
 ### Large screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull-lg.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull-lg.css"></a>
 
 Only applies to viewports defined as large or smaller.
 
@@ -62,7 +62,7 @@ Only applies to viewports defined as large or smaller.
   
 
 ### Medium screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull-md.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull-md.css"></a>
 
 Only applies to viewports defined as medium or smaller.
 
@@ -90,7 +90,7 @@ Only applies to viewports defined as medium or smaller.
 * `u-md-pull11of12`
   
 ### Small screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull-sm.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/pull/pull-sm.css"></a>
 
 Only applies to viewports defined as small or smaller.
 
@@ -120,14 +120,14 @@ Only applies to viewports defined as small or smaller.
 ## Usage
   
 <style>
-.example-parent{
+.Example-parent{
     border: 2px #bbb dashed;
     display: block;
     margin-left: 50%;
     padding: 20px 0;
     width: 50%;
 }
-.example-parent > div{
+.Example-parent > div{
     background-color: #329A5C;
     color: #FFF;
     display: block;
@@ -138,8 +138,8 @@ Only applies to viewports defined as small or smaller.
 }
 </style>
   
-<div class="code-sample">
-    <div class="example-parent">
+<div class="CodeSample">
+    <div class="Example-parent">
         <div>No Utility</div>
         <div class="u-pull1of12">u-pull1of12</div>
         <div class="u-pull1of6">u-pull1of6</div>

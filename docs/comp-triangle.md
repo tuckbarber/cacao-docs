@@ -3,7 +3,7 @@ id: triangle
 title: Triangle
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/triangle/triangle.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/triangle/triangle.css"></a>
 
 A simple inline CSS triangle that scales with font size. Must be used with 
 one and only one direction modifier.
@@ -21,7 +21,7 @@ Basic visual tests are in [`test/modules/triangle.html`](http://aptuitiv.github.
 
 
 ## Usage
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->

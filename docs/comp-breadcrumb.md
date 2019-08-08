@@ -3,7 +3,7 @@ id: breadcrumb
 title: Breadcrumb
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/breadcrumb/breadcrumb.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/breadcrumb/breadcrumb.css"></a>
 
 Provides basic setup for breadcrumb navigation.
 

@@ -3,7 +3,7 @@
    title: Display
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/display/display.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/display/display.css"></a>
 
 Utility to control the `display` property.
 

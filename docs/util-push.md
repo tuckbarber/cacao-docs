@@ -3,12 +3,12 @@
    title: Push
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/"></a>
 
 For shifting an element to the right an amount relative to its parent.
 
 ## Available classes
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push.css"></a>
 
 * `u-push1of12` / `u-push1of10` / `u-push1of8`
 * `u-push1of6` / `u-push2of12`
@@ -33,7 +33,7 @@ For shifting an element to the right an amount relative to its parent.
 * `u-push11of12`
  
 ### Large screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push-lg.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push-lg.css"></a>
 
 Only applies to viewports defined as large or smaller.
 
@@ -61,7 +61,7 @@ Only applies to viewports defined as large or smaller.
 * `u-lg-push11of12`
   
 ### Medium screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push-md.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push-md.css"></a>
 
 Only applies to viewports defined as medium or smaller.
 
@@ -90,7 +90,7 @@ Only applies to viewports defined as medium or smaller.
   * `u-md-push11of12`
   
 ### Small screen
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push-sm.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/push/push-sm.css"></a>
 
 Only applies to viewports defined as small or smaller.
 
@@ -121,13 +121,13 @@ Only applies to viewports defined as small or smaller.
 ## Usage
 
 <style>
-.example-parent{
+.Example-parent{
     border: 2px #bbb dashed;
     display: block;
     padding: 20px 0;
     width: 50%;
 }
-.example-parent > div{
+.Example-parent > div{
     background-color: #329A5C;
     color: #FFF;
     display: block;
@@ -138,8 +138,8 @@ Only applies to viewports defined as small or smaller.
 }
 </style>
   
-<div class="code-sample">
-    <div class="example-parent">
+<div class="CodeSample">
+    <div class="Example-parent">
         <div>No Utility</div>
         <div class="u-push1of12">u-push1of12</div>
         <div class="u-push1of6">u-push1of6</div>

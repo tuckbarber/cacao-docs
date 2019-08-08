@@ -3,7 +3,7 @@ id: list
 title: List
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/list/list.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/list/list.css"></a>
 
 Generic list component that applies common treatments to `<ul>` and 
 `<ol>` elements.
@@ -30,7 +30,7 @@ Generic list component that applies common treatments to `<ul>` and
 
 ## Usage
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->

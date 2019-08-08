@@ -3,7 +3,7 @@ id: content
 title: Content
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/content/content.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/content/content.css"></a>
 
 Container for main contain.
 
@@ -12,17 +12,17 @@ Container for main contain.
 
 
 <style>
-.example-Parent{
+.Example-parent{
     background-color: #329A5C;
     padding: 40px 50px;
 }
 </style>
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
-<div class="example-Parent">
+<div class="Example-parent">
     <div class="Content">
         <h3>Throw some Lorem ipsum in here:</h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -33,14 +33,14 @@ Container for main contain.
 ```
 <!--CSS-->
 ```css
-.example-Parent{
+.Example-parent{
     background-color: #329A5C;
     padding: 40px 50px;
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 
-<div class="example-Parent">
+<div class="Example-parent">
     <div class="Content">
         <h3>Throw some Lorem ipsum in here:</h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

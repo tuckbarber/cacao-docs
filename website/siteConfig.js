@@ -38,7 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'main', label: 'Docs'}
+    { doc: 'main', label: 'Docs' },
+    { href: 'https://github.com/aptuitiv/cacao', label: 'Source' },
   ],
 
   // If you have users set above, you add it here:

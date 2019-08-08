@@ -3,7 +3,7 @@
    title: Layout
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/layout/layout.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/layout/layout.css"></a>
 
 To help with layout bugs and tricks.
 
@@ -26,23 +26,23 @@ contains all floated children. Will clip overflowing content.
 .example-divider:last-child{
     margin-bottom: 0;
 }
-.example-parent{
+.Example-parent{
     border: 2px #bbb dashed;
     display:block;
     margin: 20px auto;
     padding: 10px;
     width: 80%;
 }
-.example-parent img{
+.Example-parent img{
     margin: 10px;
 }
 </style>
 
-<div class="code-sample">
+<div class="CodeSample">
 <br>
 Without using u-cf utility on container of floated content.
 <div class="example-divider">
-    <div class="example-parent">
+    <div class="Example-parent">
             <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
                   &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
@@ -54,7 +54,7 @@ Without using u-cf utility on container of floated content.
 </div>
 Using u-cf utility on container to keep it from collapsing.
 <div class="example-divider">
-    <div class="example-parent u-cf">
+    <div class="Example-parent u-cf">
             <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
                   &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
@@ -66,7 +66,7 @@ Using u-cf utility on container to keep it from collapsing.
 </div>
 Using u-nbfc utility on container to contain floated children.
 <div class="example-divider">
-    <div class="example-parent u-nbfc">
+    <div class="Example-parent u-nbfc">
             <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
                   &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 
@@ -82,7 +82,7 @@ Using u-nbfc utility on container to contain floated children.
 
 Using u-nbfc utility on container to contain floated children, and u-nbfc used on child &lt;p&gt; element to prevent its text from wrapping under floated elements.
 <div class="example-divider">
-    <div class="example-parent u-nbfc">
+    <div class="Example-parent u-nbfc">
             <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
                   &ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" 

@@ -3,7 +3,7 @@ id: pagination
 title: Pagination
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/pagination/pagination.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/pagination/pagination.css"></a>
 
 Pagination for iterative pages.
 
@@ -15,7 +15,7 @@ Pagination for iterative pages.
 * `Pagination-item--isActive`: Current pagination element.
 
 ## Usage
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html

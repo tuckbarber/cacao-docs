@@ -3,10 +3,10 @@
    title: Align
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/align/align.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/align/align.css"></a>
 
 <style>
-.example-parent {
+.Example-parent {
     border: 2px #bbb solid;
     height: 100px;
     text-align: center;
@@ -14,7 +14,7 @@
     font-size: 2em;
     line-height: 1.5em;
 }
-.example-element {
+.Example-element {
     background-color: #329A5C;
     border-radius: 5px;
     color: #FFF;
@@ -54,13 +54,13 @@ appropriate `display` value.
 
 ## Usage
 
-<div class="code-sample code-sample--padded">
-    <div class="example-parent">
+<div class="CodeSample CodeSample--padded">
+    <div class="Example-parent">
         <div class="line"></div>
         <div class="example-other">Parent-sized font</div>
-        <div class="example-element u-alignBaseline">baseline</div>
-        <div class="example-element u-alignBottom">bottom</div>
-        <div class="example-element u-alignMiddle">middle</div>
-        <div class="example-element u-alignTop">top</div>
+        <div class="Example-element u-alignBaseline">baseline</div>
+        <div class="Example-element u-alignBottom">bottom</div>
+        <div class="Example-element u-alignMiddle">middle</div>
+        <div class="Example-element u-alignTop">top</div>
     </div>
 </div>

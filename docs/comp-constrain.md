@@ -3,15 +3,15 @@ id: constrain
 title: Constrain
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/constrain/constrain.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/constrain/constrain.css"></a>
 
 <style>
-.example-Parent{
+.Example-parent{
     display: inline-block;   
     margin: 2%;
     width: 45%;
 }
-.example-element{
+.Example-element{
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80);
     border: 2px #bbb dashed;
 }
@@ -60,53 +60,53 @@ either by applying a custom class or using inline styles.
 <div class="Constrain Constrain--16by9" style="background-image: url('...');"></div>
 ```
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
 ```html
 <h3>Ratios:</h3>
-<div class="example-Parent">
+<div class="Example-parent">
     5by4
-    <div class="example-element Constrain Constrain--5by4"></div>
+    <div class="Example-element Constrain Constrain--5by4"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     4by3
-    <div class="example-element Constrain Constrain--4by3"></div>
+    <div class="Example-element Constrain Constrain--4by3"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     3by2
-    <div class="example-element Constrain Constrain--3by2"></div>
+    <div class="Example-element Constrain Constrain--3by2"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     8by5
-    <div class="example-element Constrain Constrain--8by5"></div>
+    <div class="Example-element Constrain Constrain--8by5"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     16by9
-    <div class="example-element Constrain Constrain--16by9"></div>
+    <div class="Example-element Constrain Constrain--16by9"></div>
 </div>
 
 <h3>Gravitate with modifiers</h3>
-<div class="example-Parent">
+<div class="Example-parent">
    --top
-    <div class="example-element Constrain Constrain--16by9 Constrain--top"></div>
+    <div class="Example-element Constrain Constrain--16by9 Constrain--top"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     --bottom
-    <div class="example-element Constrain Constrain--16by9 Constrain--bottom"></div>
+    <div class="Example-element Constrain Constrain--16by9 Constrain--bottom"></div>
 </div>
 ```
 
 <!--CSS-->
 ```css
-.example-Parent{
+.Example-parent{
     display: inline-block;   
     margin: 2%;
     width: 45%;
 }
 
-.example-element{
+.Example-element{
     /* Photo by Hannah Busing on Unsplash */
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
                           ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
@@ -116,35 +116,35 @@ either by applying a custom class or using inline styles.
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
 <h3>Ratios:</h3>
-<div class="example-Parent">
+<div class="Example-parent">
     5by4
-    <div class="example-element Constrain Constrain--5by4"></div>
+    <div class="Example-element Constrain Constrain--5by4"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     4by3
-    <div class="example-element Constrain Constrain--4by3"></div>
+    <div class="Example-element Constrain Constrain--4by3"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     3by2
-    <div class="example-element Constrain Constrain--3by2"></div>
+    <div class="Example-element Constrain Constrain--3by2"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     8by5
-    <div class="example-element Constrain Constrain--8by5"></div>
+    <div class="Example-element Constrain Constrain--8by5"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     16by9
-    <div class="example-element Constrain Constrain--16by9"></div>
+    <div class="Example-element Constrain Constrain--16by9"></div>
 </div>
 
 <h3>Gravitate with modifiers</h3>
-<div class="example-Parent">
+<div class="Example-parent">
    --top
-    <div class="example-element Constrain Constrain--16by9 Constrain--top"></div>
+    <div class="Example-element Constrain Constrain--16by9 Constrain--top"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     --bottom
-    <div class="example-element Constrain Constrain--16by9 Constrain--bottom"></div>
+    <div class="Example-element Constrain Constrain--16by9 Constrain--bottom"></div>
 </div>
 
 </div>
@@ -174,41 +174,41 @@ corresponding `padding-bottom` value applied using an inline style.
 Alternatively, the `Constrain--contain` modifier can be used to ensure that
 the entire background image is visible.
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
 ```html
-<div class="example-Parent">
-    <div class="example-element Constrain 
+<div class="Example-parent">
+    <div class="Example-element Constrain 
                 Constrain--5by4 Constrain--contain"></div>
 </div>
-<div class="example-Parent">
-    <div class="example-element Constrain 
+<div class="Example-parent">
+    <div class="Example-element Constrain 
                 Constrain--16by9 Constrain--contain"></div>
 </div>
 
-<div class="example-Parent">
+<div class="Example-parent">
     --left
-    <div class="example-element Constrain 
+    <div class="Example-element Constrain 
                 Constrain--16by9 Constrain--contain Constrain--left"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     --right
-    <div class="example-element Constrain 
+    <div class="Example-element Constrain 
                 Constrain--16by9 Constrain--contain Constrain--right"></div>
 </div>
 ```
 
 <!--CSS-->
 ```css
-.example-Parent{
+.Example-parent{
     display: inline-block;   
     margin: 2%;
     width: 45%;
 }
 
-.example-element{
+.Example-element{
     /* Photo by Hannah Busing on Unsplash */
     background-image: url(https://images.unsplash.com/photo-1559662780-c3bab6f7e00b
                           ?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
@@ -217,23 +217,23 @@ the entire background image is visible.
 }
 ```
 <!--END_DOCUSAURUS_CODE_TABS-->
-<div class="example-Parent">
-    <div class="example-element Constrain 
+<div class="Example-parent">
+    <div class="Example-element Constrain 
                 Constrain--5by4 Constrain--contain"></div>
 </div>
-<div class="example-Parent">
-    <div class="example-element Constrain 
+<div class="Example-parent">
+    <div class="Example-element Constrain 
                 Constrain--16by9 Constrain--contain"></div>
 </div>
 
-<div class="example-Parent">
+<div class="Example-parent">
     --left
-    <div class="example-element Constrain 
+    <div class="Example-element Constrain 
                 Constrain--16by9 Constrain--contain Constrain--left"></div>
 </div>
-<div class="example-Parent">
+<div class="Example-parent">
     --right
-    <div class="example-element Constrain 
+    <div class="Example-element Constrain 
                 Constrain--16by9 Constrain--contain Constrain--right"></div>
 </div>
 

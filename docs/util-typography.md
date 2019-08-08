@@ -3,7 +3,7 @@
    title: Typography
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography.css"></a>
 
 ## Available classes
 
@@ -58,7 +58,7 @@
 * `u-textTruncate`: Prevent text from wrapping onto multiple lines, and truncate with an ellipsis.
 
 ### Large Typography
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-lg.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-lg.css"></a>
 
 Only applies to viewports defined as large or smaller. 
 
@@ -67,7 +67,7 @@ Only applies to viewports defined as large or smaller.
 *  `u-lg-textRight`: Right align text.
 
 ### Medium typography
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-md.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-md.css"></a>
 
 Only applies to viewports defined as medium or smaller. 
 
@@ -76,7 +76,7 @@ Only applies to viewports defined as medium or smaller.
 *  `u-md-textRight`: Right align text.
 
 ### Small typography
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-sm.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-sm.css"></a>
 
 Only applies to viewports defined as small or smaller. 
 
@@ -114,20 +114,20 @@ Adjusts each of the font scales' size and line height.
 
 <link href='//fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,700,800,900' rel='stylesheet' type='text/css'>
 <style>
-.example-parent{
+.Example-parent{
     margin: 20px 10px;
     border-left: 2px #000 solid;
     font-family: 'Open Sans';
     padding-left: 10px;
 }
-.example-parent > span {
+.Example-parent > span {
     display: block;
 }
 </style>
-<div class="code-sample">
+<div class="CodeSample">
     <br>
     u-weight
-    <div class="example-parent" style="font-size: 2em;">
+    <div class="Example-parent" style="font-size: 2em;">
         <span class="u-weightLightest">u-weightLightest</span>
         <span class="u-weightLighter">u-weightLighter</span>
         <span class="u-weightLight">u-weightLight</span>
@@ -138,7 +138,7 @@ Adjusts each of the font scales' size and line height.
     </div>
     <br>
     u-fontSize
-    <div class="example-parent">
+    <div class="Example-parent">
         <span class="u-fontSize1"> u-fontSize1 </span>
         <span class="u-fontSize2"> u-fontSize2 </span>
         <span class="u-fontSize3"> u-fontSize3 </span>

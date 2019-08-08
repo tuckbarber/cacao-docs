@@ -3,10 +3,10 @@ id: navigation
 title: Navigation
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation"></a>
 
 ## Dropdown
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/dropdown.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/dropdown.css"></a>
 
 Base structure for dropdown menus. Can easily be extended and / or themed.
 
@@ -70,7 +70,7 @@ Basic use:
 The `is-last` state can be applied to the last `Dropdown` element to prevent the dropdown menu from extending
 too far to the right.
 
-<div class="code-sample">
+<div class="CodeSample">
 
 <br>
 Without is-last on last dropdown
@@ -152,7 +152,7 @@ Using is-last on last dropdown
 
 
 ## FooterNav
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/footer.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/footer.css"></a>
 
 A navigation menu for the footer of the page.
 
@@ -168,7 +168,7 @@ A navigation menu for the footer of the page.
   from the other items.
 
 ## MainNav
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/mainnav.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/mainnav.css"></a>
 
 Base structure for main navigation menus. Can easily be extended and / or 
 themed.
@@ -226,7 +226,7 @@ Basic use:
 ```
 
 ## NavBar
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/bar.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/bar.css"></a>
 
 The bar to hold main navigation, contains `MainNav`.
 
@@ -235,7 +235,7 @@ The bar to hold main navigation, contains `MainNav`.
 * `NavBar`: Applied to the parent element of `MainNav`.
 
 ## SidebarNav
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/sidebar.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/sidebar.css"></a>
 
 ### Available classes
 
@@ -250,7 +250,7 @@ The bar to hold main navigation, contains `MainNav`.
   
 
 ## SmScBtn
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/small-screen-button.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/small-screen-button.css"></a>
 
 A button to expand/compact navigation menu for smaller displays.
 
@@ -274,7 +274,7 @@ A button to expand/compact navigation menu for smaller displays.
 **Note**: this component will only be visible when the viewport is appropritately small. The expansion of the menu and the
 addition of the `is-active` class requires additional JavaScript code.
 
-<div class="code-sample">
+<div class="CodeSample">
 <button class="SmScBtn" style="display:inherit; background-color: #3264a8;" 
         onClick="this.classList.contains('is-active') ? this.classList.remove('is-active') : this.classList.add('is-active')">
     <span class="SmScBtn-icon"></span>Menu
@@ -283,7 +283,7 @@ addition of the `is-active` class requires additional JavaScript code.
 
 
 ## Complete Example
-<div class="code-sample">
+<div class="CodeSample">
 <style>
 #nav-display {
     background-color: #fff;

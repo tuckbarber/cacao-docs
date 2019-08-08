@@ -3,7 +3,7 @@ id: media
 title: Media
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/media/media.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/media/media.css"></a>
 
 The [media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) 
 is an abstract element used as the basis for building more complex and 
@@ -33,7 +33,7 @@ applied when `<html>` has a class of `no-flexbox` or `no-flexwrap`.
 
 ### Gutters
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
@@ -143,7 +143,7 @@ applied when `<html>` has a class of `no-flexbox` or `no-flexwrap`.
 The `Media-subject` element can be aligned relative to the rest of the content with
 the `Media-subject--middle` and `Media-subject--bottom` modifiers.
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->

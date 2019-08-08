@@ -3,12 +3,12 @@ id: image-component
 title: Image
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/"></a>
 
 Generic component that applies common treatments to `<img>` elements.
 
 ## Image
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/image.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/image.css"></a>
 
 ### Available classes
 
@@ -26,7 +26,7 @@ Generic component that applies common treatments to `<img>` elements.
 
 Images can be floated to either side and text will wrap around. `Image--left` and `Image--right` 
 will limit the width of the image to 40% of the parent element to provide space for the text.
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
@@ -65,7 +65,7 @@ will limit the width of the image to 40% of the parent element to provide space 
 </div>
 
 ## Image Wrapper
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/wrapper.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/wrapper.css"></a>
 
 Provides styles to display an image on a page centered, floated left or floated 
 right along with other content like a caption.
@@ -86,7 +86,7 @@ right along with other content like a caption.
 ```
 
 ## Image Caption
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/caption.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/caption.css"></a>
 
 Provides styles for an image caption to be displayed below the image.
 
@@ -98,12 +98,12 @@ The ImageCaption class works best when paired with the ImageWrapper classes.
 
 ### Usage
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 
 <!--HTML-->
 ```html
-<div class="example-Parent">
+<div class="Example-parent">
   <div class="ImageWrapper ImageWrapper--left">
         <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1
@@ -139,7 +139,7 @@ The ImageCaption class works best when paired with the ImageWrapper classes.
 ```
 
 <!--END_DOCUSAURUS_CODE_TABS-->
-<div class="example-Parent">
+<div class="Example-parent">
   <div class="ImageWrapper ImageWrapper--left">
         <!-- Photo by Hannah Busing on Unsplash -->
         <img src="https://images.unsplash.com/photo-1559662780-c3bab6f7e00b?ixlib=rb-1.2.1

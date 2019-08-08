@@ -3,14 +3,14 @@
    title: Padding
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/"></a>
 
 Add padding spacing in various sizes.
 
 ## Available classes
 
 ### Gutters
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/gutters.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/gutters.css"></a>
 * `u-gutters0`: Set size of gutters to zero.
 * `u-gutters1`: Gives gutter of size factor 1.
 * `u-gutters2`: Gives gutter of size factor 2.
@@ -33,7 +33,7 @@ Add padding spacing in various sizes.
 * `u-sm-gutters4`: Gives gutter of size factor 4 (small).
 
 ### Bottom padding
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-bottom.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-bottom.css"></a>
 * `u-padBottom0`: Set size of bottom padding to zero.
 * `u-padBottom1`: Gives bottom padding of size factor 1.
 * `u-padBottom2`: Gives bottom padding of size factor 2.
@@ -60,7 +60,7 @@ Add padding spacing in various sizes.
 * `u-sm-padBottom5`: Gives bottom padding of size factor 5 (small).
 
 ### Left padding
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-left.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-left.css"></a>
 * `u-padLeft0`: Set size of left padding to zero.
 * `u-padLeft1`: Gives left padding of size factor 1.
 * `u-padLeft2`: Gives left padding of size factor 2.
@@ -87,7 +87,7 @@ Add padding spacing in various sizes.
 * `u-sm-padLeft5`: Gives left padding of size factor 5 (small).
 
 ### Right padding
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-right.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-right.css"></a>
 * `u-padRight0`: Set size of right padding to zero.
 * `u-padRight1`: Gives right padding of size factor 1.
 * `u-padRight2`: Gives right padding of size factor 2.
@@ -114,7 +114,7 @@ Add padding spacing in various sizes.
 * `u-sm-padRight5`: Gives right padding of size factor 5 (small).
 
 ### Top padding
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-top.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-top.css"></a>
 * `u-padTop0`: Set size of top padding to zero.
 * `u-padTop1`: Gives top padding of size factor 1.
 * `u-padTop2`: Gives top padding of size factor 2.
@@ -141,7 +141,7 @@ Add padding spacing in various sizes.
 * `u-sm-padTop5`: Gives top padding of size factor 5 (small).
 
 ### Vertical spacing
-<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/spaced.css"></a>
+<a class="SourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/spaced.css"></a>
 * `u-spaced0`: Set size of vertical spacing to zero.
 * `u-spaced1`: Gives vertical spacing of size factor 1.
 * `u-spaced2`: Gives vertical spacing of size factor 2.
@@ -189,12 +189,12 @@ Add padding spacing in various sizes.
 ## Usage
 
 <style>
-.example-parent{
+.Example-parent{
     border: 2px #bbb dashed;
     display: inline-block;
     box-sizing: border-box;
 }
-.example-parent > span{
+.Example-parent > span{
     background-color: #329A5C;
     color: #FFF;
     display: inline-block;
@@ -202,70 +202,70 @@ Add padding spacing in various sizes.
     vertical-align: bottom;
 </style>
 
-<div class="code-sample code-sample--padded">
+<div class="CodeSample CodeSample--padded">
     u-guttersPad
     <br>
-    <div class="example-parent u-gutters0">
+    <div class="Example-parent u-gutters0">
         <span>Padding gutters 0 </span>
     </div>
     <br>
-    <div class="example-parent u-gutters1">
+    <div class="Example-parent u-gutters1">
         <span>Padding gutters 1 </span>
     </div>
     <br>
-    <div class="example-parent u-gutters2">
+    <div class="Example-parent u-gutters2">
         <span>Padding gutters 2 </span>
     </div>
     <br>
-    <div class="example-parent u-gutters3">
+    <div class="Example-parent u-gutters3">
         <span>Padding gutters 3 </span>
     </div>
     <br>
-    <div class="example-parent u-gutters4">
+    <div class="Example-parent u-gutters4">
         <span>Padding gutters 4 </span>
     </div>
     <br>
     <br>
     u-spaced
     <br>
-    <div class="example-parent u-spaced0">
+    <div class="Example-parent u-spaced0">
         <span>Spaced 0 </span>
     </div>
-    <div class="example-parent u-spaced1">
+    <div class="Example-parent u-spaced1">
         <span>Spaced 1 </span>
     </div>
-    <div class="example-parent u-spaced2">
+    <div class="Example-parent u-spaced2">
         <span>Spaced 2 </span>
     </div>
-    <div class="example-parent u-spaced3">
+    <div class="Example-parent u-spaced3">
         <span>Spaced 3 </span>
     </div>
-    <div class="example-parent u-spaced4">
+    <div class="Example-parent u-spaced4">
         <span>Spaced 4 </span>
     </div>
-    <div class="example-parent u-spaced5">
+    <div class="Example-parent u-spaced5">
         <span>Spaced 5 </span>
     </div>
     <br>
     <br>
     u-padBottom
     <br>
-    <div class="example-parent u-padBottom0">
+    <div class="Example-parent u-padBottom0">
         <span>Padding 0 </span>
     </div>
-    <div class="example-parent u-padBottom1">
+    <div class="Example-parent u-padBottom1">
         <span>Padding 1 </span>
     </div>
-    <div class="example-parent u-padBottom2">
+    <div class="Example-parent u-padBottom2">
         <span>Padding 2 </span>
     </div>
-    <div class="example-parent u-padBottom3">
+    <div class="Example-parent u-padBottom3">
         <span>Padding 3 </span>
     </div>
-    <div class="example-parent u-padBottom4">
+    <div class="Example-parent u-padBottom4">
         <span>Padding 4 </span>
     </div>
-    <div class="example-parent u-padBottom5">
+    <div class="Example-parent u-padBottom5">
         <span>Padding 5 </span>
     </div>
 </div>

@@ -3,7 +3,7 @@ id: arrange
 title: Arrange
 ---
 
-<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/arrange/arrange.css"></a>
+<a class="SourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/arrange/arrange.css"></a>
 
 <style>
 .example-Child {
@@ -39,7 +39,7 @@ equal width, and to control their vertical alignment.
 
 For a comparison of `sizeFit` vs `sizeFill` elements:
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
@@ -75,7 +75,7 @@ For a comparison of `sizeFit` vs `sizeFill` elements:
 
 Using `Arrange--equal` to keep child elements of equal size despite their content.
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
@@ -113,7 +113,7 @@ Using `Arrange--equal` to keep child elements of equal size despite their conten
 
 Using `Arrange-row`, one row is set to `Arrange--middle` and the other is `Arrange--bottom`:
 
-<div class="code-sample">
+<div class="CodeSample">
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML-->
 ```html
