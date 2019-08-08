@@ -3,11 +3,14 @@
    title: Padding
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/"></a>
+
 Add padding spacing in various sizes.
 
 ## Available classes
 
 ### Gutters
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/gutters.css"></a>
 * `u-gutters0`: Set size of gutters to zero.
 * `u-gutters1`: Gives gutter of size factor 1.
 * `u-gutters2`: Gives gutter of size factor 2.
@@ -30,6 +33,7 @@ Add padding spacing in various sizes.
 * `u-sm-gutters4`: Gives gutter of size factor 4 (small).
 
 ### Bottom padding
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-bottom.css"></a>
 * `u-padBottom0`: Set size of bottom padding to zero.
 * `u-padBottom1`: Gives bottom padding of size factor 1.
 * `u-padBottom2`: Gives bottom padding of size factor 2.
@@ -55,7 +59,62 @@ Add padding spacing in various sizes.
 * `u-sm-padBottom4`: Gives bottom padding of size factor 4 (small).
 * `u-sm-padBottom5`: Gives bottom padding of size factor 5 (small).
 
+### Left padding
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-left.css"></a>
+* `u-padLeft0`: Set size of left padding to zero.
+* `u-padLeft1`: Gives left padding of size factor 1.
+* `u-padLeft2`: Gives left padding of size factor 2.
+* `u-padLeft3`: Gives left padding of size factor 3.
+* `u-padLeft4`: Gives left padding of size factor 4.
+* `u-padLeft5`: Gives left padding of size factor 5.
+* `u-lg-padLeft0`: Set size of left padding to zero.
+* `u-lg-padLeft1`: Gives left padding of size factor 1 (large).
+* `u-lg-padLeft2`: Gives left padding of size factor 2 (large).
+* `u-lg-padLeft3`: Gives left padding of size factor 3 (large).
+* `u-lg-padLeft4`: Gives left padding of size factor 4 (large).
+* `u-lg-padLeft5`: Gives left padding of size factor 5 (large).
+* `u-md-padLeft0`: Set size of left padding to zero.
+* `u-md-padLeft1`: Gives left padding of size factor 1 (medium).
+* `u-md-padLeft2`: Gives left padding of size factor 2 (medium).
+* `u-md-padLeft3`: Gives left padding of size factor 3 (medium).
+* `u-md-padLeft4`: Gives left padding of size factor 4 (medium).
+* `u-md-padLeft5`: Gives left padding of size factor 5 (medium).
+* `u-sm-padLeft0`: Set size of left padding to zero.
+* `u-sm-padLeft1`: Gives left padding of size factor 1 (small).
+* `u-sm-padLeft2`: Gives left padding of size factor 2 (small).
+* `u-sm-padLeft3`: Gives left padding of size factor 3 (small).
+* `u-sm-padLeft4`: Gives left padding of size factor 4 (small).
+* `u-sm-padLeft5`: Gives left padding of size factor 5 (small).
+
+### Right padding
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-right.css"></a>
+* `u-padRight0`: Set size of right padding to zero.
+* `u-padRight1`: Gives right padding of size factor 1.
+* `u-padRight2`: Gives right padding of size factor 2.
+* `u-padRight3`: Gives right padding of size factor 3.
+* `u-padRight4`: Gives right padding of size factor 4.
+* `u-padRight5`: Gives right padding of size factor 5.
+* `u-lg-padRight0`: Set size of right padding to zero.
+* `u-lg-padRight1`: Gives right padding of size factor 1 (large).
+* `u-lg-padRight2`: Gives right padding of size factor 2 (large).
+* `u-lg-padRight3`: Gives right padding of size factor 3 (large).
+* `u-lg-padRight4`: Gives right padding of size factor 4 (large).
+* `u-lg-padRight5`: Gives right padding of size factor 5 (large).
+* `u-md-padRight0`: Set size of right padding to zero.
+* `u-md-padRight1`: Gives right padding of size factor 1 (medium).
+* `u-md-padRight2`: Gives right padding of size factor 2 (medium).
+* `u-md-padRight3`: Gives right padding of size factor 3 (medium).
+* `u-md-padRight4`: Gives right padding of size factor 4 (medium).
+* `u-md-padRight5`: Gives right padding of size factor 5 (medium).
+* `u-sm-padRight0`: Set size of right padding to zero.
+* `u-sm-padRight1`: Gives right padding of size factor 1 (small).
+* `u-sm-padRight2`: Gives right padding of size factor 2 (small).
+* `u-sm-padRight3`: Gives right padding of size factor 3 (small).
+* `u-sm-padRight4`: Gives right padding of size factor 4 (small).
+* `u-sm-padRight5`: Gives right padding of size factor 5 (small).
+
 ### Top padding
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/pad-top.css"></a>
 * `u-padTop0`: Set size of top padding to zero.
 * `u-padTop1`: Gives top padding of size factor 1.
 * `u-padTop2`: Gives top padding of size factor 2.
@@ -82,6 +141,7 @@ Add padding spacing in various sizes.
 * `u-sm-padTop5`: Gives top padding of size factor 5 (small).
 
 ### Vertical spacing
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/padding/spaced.css"></a>
 * `u-spaced0`: Set size of vertical spacing to zero.
 * `u-spaced1`: Gives vertical spacing of size factor 1.
 * `u-spaced2`: Gives vertical spacing of size factor 2.

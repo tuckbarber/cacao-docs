@@ -3,6 +3,8 @@
    title: Link
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/link/link.css"></a>
+
 To be used with links to provide more functionality and alterations.
 
 ## Available classes

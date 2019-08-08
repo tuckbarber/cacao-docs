@@ -3,6 +3,8 @@
    title: Image
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/image/image.css"></a>
+
 To be applied to images for general sizing and positioning.
 
 ## Available classes

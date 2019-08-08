@@ -3,6 +3,8 @@
    title: Print
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/base/print.css"></a>
+
 Modifies general type selectors for best outcome when printing the page.
 
 ## Affected Type Selectors

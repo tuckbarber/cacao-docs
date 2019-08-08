@@ -3,6 +3,8 @@ id: message
 title: Message
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/message/message.css"></a>
+
 ### Available classes
 
 * `Message`: The core message component.

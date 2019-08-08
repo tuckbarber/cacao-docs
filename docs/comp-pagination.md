@@ -3,6 +3,8 @@ id: pagination
 title: Pagination
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/pagination/pagination.css"></a>
+
 Pagination for iterative pages.
 
 ## Available classes

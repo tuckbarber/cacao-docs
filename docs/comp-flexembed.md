@@ -3,6 +3,8 @@ id: flexembed
 title: FlexEmbed
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/flexembed/flexembed.css"></a>
+
 <style>
 .example-Parent{
     width: 60%;

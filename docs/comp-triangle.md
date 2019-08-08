@@ -3,6 +3,8 @@ id: triangle
 title: Triangle
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/triangle/triangle.css"></a>
+
 A simple inline CSS triangle that scales with font size. Must be used with 
 one and only one direction modifier.
 

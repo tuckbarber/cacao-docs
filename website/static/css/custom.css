@@ -55,3 +55,42 @@
 .code-sample--padded {
     padding: 20px;
 }
+
+.sourceView-page {
+    position: absolute;
+    right: 0;
+    top: .7em;
+}
+
+.sourceView-page:hover {
+    filter: brightness(80%);
+}
+
+.sourceView-page::after {
+    background-image: url(../img/view-source.svg);
+    content:'';
+    height: 20px;
+    position: absolute;
+    right: 0;
+    width: 160px;
+}
+
+.sourceView-section {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.sourceView-section:hover {
+    filter: brightness(80%);
+}
+
+.sourceView-section::after {
+    background-image: url(../img/view-source.svg);
+    content:'';
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: -2em;
+    width: 160px;
+}

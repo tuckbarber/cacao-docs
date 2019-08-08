@@ -3,6 +3,8 @@ id: content
 title: Content
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/content/content.css"></a>
+
 Container for main contain.
 
 ## Available classes

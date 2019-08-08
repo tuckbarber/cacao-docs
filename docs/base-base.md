@@ -3,8 +3,10 @@
    title: Base
 ---
 
-Modifies general type selectors for compatibility, best practices, and workarounds.
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/base/base.css"></a>
 
+Modifies general type selectors for compatibility, best practices, and workarounds. 
+___
 ## Affected Type Selectors
 
  * `body`: Sets body background color as a best practice.

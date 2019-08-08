@@ -3,7 +3,10 @@ id: navigation
 title: Navigation
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation"></a>
+
 ## Dropdown
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/dropdown.css"></a>
 
 Base structure for dropdown menus. Can easily be extended and / or themed.
 
@@ -147,7 +150,9 @@ Using is-last on last dropdown
 
 </div>
 
+
 ## FooterNav
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/footer.css"></a>
 
 A navigation menu for the footer of the page.
 
@@ -162,8 +167,8 @@ A navigation menu for the footer of the page.
 * `is-current` / `is-currentParent`: When applied to menu item the item will be styled to stand out 
   from the other items.
 
-
 ## MainNav
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/mainnav.css"></a>
 
 Base structure for main navigation menus. Can easily be extended and / or 
 themed.
@@ -221,6 +226,7 @@ Basic use:
 ```
 
 ## NavBar
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/bar.css"></a>
 
 The bar to hold main navigation, contains `MainNav`.
 
@@ -229,6 +235,7 @@ The bar to hold main navigation, contains `MainNav`.
 * `NavBar`: Applied to the parent element of `MainNav`.
 
 ## SidebarNav
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/sidebar.css"></a>
 
 ### Available classes
 
@@ -241,8 +248,9 @@ The bar to hold main navigation, contains `MainNav`.
 * `is-current` / `is-currentParent`: When applied to menu item the item will be styled to stand out 
   from the other items.
   
-  
+
 ## SmScBtn
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/navigation/small-screen-button.css"></a>
 
 A button to expand/compact navigation menu for smaller displays.
 

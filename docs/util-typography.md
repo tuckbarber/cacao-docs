@@ -3,6 +3,7 @@
    title: Typography
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography.css"></a>
 
 ## Available classes
 
@@ -57,6 +58,7 @@
 * `u-textTruncate`: Prevent text from wrapping onto multiple lines, and truncate with an ellipsis.
 
 ### Large Typography
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-lg.css"></a>
 
 Only applies to viewports defined as large or smaller. 
 
@@ -65,6 +67,7 @@ Only applies to viewports defined as large or smaller.
 *  `u-lg-textRight`: Right align text.
 
 ### Medium typography
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-md.css"></a>
 
 Only applies to viewports defined as medium or smaller. 
 
@@ -73,6 +76,7 @@ Only applies to viewports defined as medium or smaller.
 *  `u-md-textRight`: Right align text.
 
 ### Small typography
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/utils/typography/typography-sm.css"></a>
 
 Only applies to viewports defined as small or smaller. 
 

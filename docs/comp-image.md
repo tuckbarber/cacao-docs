@@ -3,9 +3,12 @@ id: image-component
 title: Image
 ---
 
+<a class="sourceView-page" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/"></a>
+
 Generic component that applies common treatments to `<img>` elements.
 
 ## Image
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/image.css"></a>
 
 ### Available classes
 
@@ -62,6 +65,7 @@ will limit the width of the image to 40% of the parent element to provide space 
 </div>
 
 ## Image Wrapper
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/wrapper.css"></a>
 
 Provides styles to display an image on a page centered, floated left or floated 
 right along with other content like a caption.
@@ -82,6 +86,7 @@ right along with other content like a caption.
 ```
 
 ## Image Caption
+<a class="sourceView-section" href="https://github.com/aptuitiv/cacao/blob/master/src/css/components/image/caption.css"></a>
 
 Provides styles for an image caption to be displayed below the image.
 
