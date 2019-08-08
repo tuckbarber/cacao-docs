@@ -13,7 +13,7 @@ title: Grid
     padding: 10px 20px;
     width: 100%;
 }
-.Example-element-large {
+.Example-element--large {
     background-color: #54827A;
     border-radius: 5px;
     color: #FFF;
@@ -95,7 +95,7 @@ No modifier
     <div class="Example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="Example-element-large">1 of 4</div>
+    <div class="Example-element--large">1 of 4</div>
     </div>
   <div class="Grid-cell u-size1of4">
     <div class="Example-element">1 of 4</div>
@@ -108,7 +108,7 @@ No modifier
     <div class="Example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="Example-element-large">1 of 4</div>
+    <div class="Example-element--large">1 of 4</div>
     </div>
   <div class="Grid-cell u-size1of4">
     <div class="Example-element">1 of 4</div>
@@ -121,7 +121,7 @@ No modifier
     <div class="Example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="Example-element-large">1 of 4</div>
+    <div class="Example-element--large">1 of 4</div>
     </div>
   <div class="Grid-cell u-size1of4">
     <div class="Example-element">1 of 4</div>
@@ -134,7 +134,7 @@ No modifier
     <div class="Example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="Example-element-large">1 of 4</div>
+    <div class="Example-element--large">1 of 4</div>
     </div>
   <div class="Grid-cell u-size1of4">
     <div class="Example-element">1 of 4</div>
@@ -147,7 +147,7 @@ No modifier
     <div class="Example-element">1 of 4</div>
   </div>
   <div class="Grid-cell u-size1of4">
-    <div class="Example-element-large">1 of 4</div>
+    <div class="Example-element--large">1 of 4</div>
     </div>
   <div class="Grid-cell u-size1of4">
     <div class="Example-element">1 of 4</div>
@@ -170,7 +170,7 @@ No modifier
     <div class="Example-element">Short Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
-    <div class="Example-element-large">Tall Cell</div>
+    <div class="Example-element--large">Tall Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
     <div class="Example-element">Short Cell</div>
@@ -183,7 +183,7 @@ No modifier
     <div class="Example-element">Short Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
-    <div class="Example-element-large">Tall Cell</div>
+    <div class="Example-element--large">Tall Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
     <div class="Example-element">Short Cell</div>
@@ -200,7 +200,7 @@ No modifier
     width: 100%;
 }
 
-.Example-element-large {
+.Example-element--large {
     background-color: #54827A;
     border-radius: 5px;
     color: #FFF;
@@ -216,7 +216,7 @@ No modifier
     <div class="Example-element">Short Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
-    <div class="Example-element-large">Tall Cell</div>
+    <div class="Example-element--large">Tall Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
     <div class="Example-element">Short Cell</div>
@@ -229,7 +229,7 @@ No modifier
     <div class="Example-element">Short Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
-    <div class="Example-element-large">Tall Cell</div>
+    <div class="Example-element--large">Tall Cell</div>
   </div>
   <div class="Grid-cell u-size1of3">
     <div class="Example-element">Short Cell</div>
