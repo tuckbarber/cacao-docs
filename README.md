@@ -29,8 +29,8 @@ $ yarn run build
 $ npm run build
 ```
 
-and deploying. However an easy method is to use Docusaurus's built-in `publish-gh-pages`. Make sure that 
-in `siteConfig.js` the `projectName`/`organizationName` are set accordingly.
+and deploying. However, an easy method is to use Docusaurus's built-in `publish-gh-pages`. Make sure that 
+in `siteConfig.js` the `projectName`/`organizationName` are set accordingly:
 
 ```js
 // Used for publishing and more
@@ -46,11 +46,11 @@ $ GIT_USER="GIT_USERNAME" \npm run publish-gh-pages
 
 # Making changes
 
-Most information about file structure can be found on the Docusaurus site. This project uses minimal additional features, with no blog/users/i8n.
+Most information about file structure can be found on the Docusaurus site. This project uses minimal additional features, with no blog/users/i18n.
 
 ## Doc structure
 
-Any changes to the actual Documentation itself can be made in the `docs/` directory. The different sub-sections of the Cacao framework, Base, Components, and Utilities are were given `base-`/`comp-`/`util-` prefixes respectively in order to group them alphabetically and differentiate them. This is was done because Docusaurus v1 does not yet support sub-directories in the documentation directory.
+Any changes to the actual Documentation itself can be made in the `docs/` directory. The different types of modules of the Cacao framework, Base, Components, and Utilities were given `base-`/`comp-`/`util-` prefixes respectively in order to group them alphabetically and differentiate them. This is was done because Docusaurus v1 does not yet support sub-directories in the documentation directory.
 
 Each file begins with a header, for example
 
@@ -114,10 +114,16 @@ HTML CODE FOR EXAMPLE GOES HERE
 
 *Note:* discretion should be taken with indentation and spacing for code sample code, otherwise the markdown parser will surround HTML with `<p>` tags, causing undesired effects. This usually means that first example tag after `<!--END_DOCUSAURUS_CODE_TABS-->` can't be indented or have an extra line break between.
 
-For an example that is just visual with no code, the html for the example can go directly in the `CodeSample` div. 
+For an example that is just visual with no code, the html for the example can go directly in the `CodeSample` div. If the element would benefit from padding, then `CodeSample--padded` can be used.
 
 ```html
 <div class="CodeSample">
+HTML HERE
+</div>
+
+<!-- or -->
+
+<div class="CodeSample CodeSample--padded">
 HTML HERE
 </div>
 ```
@@ -136,10 +142,12 @@ title: SOME TITLE
 <a class="SourceView-page" href="GITHUB URL"></a>
 ``` 
 
-For a link under a markdown header, just place a `<a>` tag with the class `SourceView-section`. 
+If the module has multiple files or classes, you can link to a specific CSS file in that directory. To get a source button next to a markdown header, just place an `<a>` tag with the class `SourceView-section` directly under the heading. 
 
 ```md
-## SOME SECTION
+## SOME SECTION HEADER
 <a class="SourceView-section" href="GITHUB URL"></a>
 ``` 
+
+
 
